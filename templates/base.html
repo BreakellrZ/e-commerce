@@ -93,6 +93,10 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="{% url 'products' %}?category=T-shirts">T-shirts</a>
                 <a class="dropdown-item" href="{% url 'products' %}?category=Trousers">Trousers</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=asc">By Price</a>
+                <a class="dropdown-item" href="{% url 'products' %}?sort=rating&direction=desc">By Rating</a>
+                <a class="dropdown-item" href="{% url 'products' %}?sort=category&direction=asc">By Category</a>
               </div>
             </li>
             <li class="nav-item">

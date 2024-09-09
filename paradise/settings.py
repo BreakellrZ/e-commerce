@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-0d)!$m!=kif@r1=-g2!3*#442qub!(wjaf8ibquf#0g!t#cpmo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['8000-breakellrz-ecommerce-betvf0eq8ym.ws.codeinstitute-ide.net','localhost',]
 
 import os
 
