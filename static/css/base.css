@@ -8,6 +8,7 @@ html {
 body {
     height: 100vh;
     width: 100%;
+    padding-top:100px;
 }
 
 .google_font {
@@ -66,4 +67,20 @@ body {
 .btn-outline-black:focus {
     background: black;
     color: white !important;
+}
+
+.message-container {
+    position: fixed;
+    top:112px;
+    right: 15px;
+    z-index:99;
+}
+
+.custom-toast {
+    overflow: visible;
+    z-index:99;
+}
+
+.toast.capper {
+    height: 2px;
 }
