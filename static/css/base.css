@@ -50,6 +50,16 @@ body {
     font-size: 30px;
   }
 
+.btn-black {
+    background: black;
+    color: rgb(184, 183, 183);
+}
+
+.btn-black:hover {
+    color:rgb(255, 255, 255);
+    background:rgb(0, 0, 0);
+ 
+}
 
 .btt-button {
     height: 42px;
@@ -76,6 +86,14 @@ body {
 .btn-outline-black:focus {
     background: black;
     color: white !important;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.border-black {
+    border: 1px solid black !important;
 }
 
 .product-link {
