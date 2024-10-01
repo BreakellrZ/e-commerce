@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -25,9 +26,8 @@ SECRET_KEY = 'django-insecure-0d)!$m!=kif@r1=-g2!3*#442qub!(wjaf8ibquf#0g!t#cpmo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-breakellrz-ecommerce-betvf0eq8ym.ws.codeinstitute-ide.net','localhost','127.0.0.1']
-
-import os
+ALLOWED_HOSTS = [
+    '8000-breakellrz-ecommerce-betvf0eq8ym.ws.codeinstitute-ide.net', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -68,10 +68,10 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [ 
+        'DIRS': [
             os.path.join(BASE_DIR, 'templates'),
             os.path.join(BASE_DIR, 'templates', 'allauth'),
-            ],
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -184,3 +184,4 @@ STRIPE_CURRENCY = 'eur'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
+DEFAULT_FROM_EMAIL = 'paradisepending@example.com'
