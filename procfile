@@ -1,0 +1,1 @@
+web: gunicron paradise-pending-e-commerce.wsgi:application
