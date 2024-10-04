@@ -1,1 +1,1 @@
-web: gunicorn paradise-pending-e-commerce.wsgi:application
+web: gunicorn paradise.wsgi:application
