@@ -32,7 +32,7 @@ DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = [
     '8000-breakellrz-ecommerce-betvf0eq8ym.ws.codeinstitute-ide.net',
-    'localhost', '127.0.0.1', 'https://paradise-pending-e-commerce-49bae7a1ea52.herokuapp.com/']
+    'localhost', '127.0.0.1', 'paradise-pending-e-commerce-49bae7a1ea52.herokuapp.com']
 
 
 # Application definition
