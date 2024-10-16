@@ -6,10 +6,19 @@ html {
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     padding-top:100px;
 }
+
+#home {
+    height: 90vh;
+    width: 100%;
+    background: url('/media/home_hero.png') no-repeat center center fixed;
+    background-size: cover;
+    opacity: .9;
+} 
+
 
 .icon {
     align-items: center;
@@ -49,12 +58,6 @@ body {
     background-size: cover;
 }
 
-#home {
-    height: 100vh;
-    width: 100%;
-    background: url('/media/home_hero.png') no-repeat center center fixed;
-    background-size: cover;
-}
 
 #products {
     height: 100vh;
@@ -154,6 +157,10 @@ fa-shopping-bag {
     height: 2px;
 }
 
+.border {
+   border: 0.5px dotted #FFC107 !important;
+}
+
 /* Product Form */
 
 .btn-file {
@@ -183,6 +190,20 @@ fa-shopping-bag {
 
 }
 
+/* Authentication */
+
+.signup {
+    height: 90vh;
+    width:100%;
+    color:black;
+}
+
+section {
+    padding: 60px;
+}
+
+
+
 @media (max-width: 500px) {
     .custom-btn {
         font-size: 12px; /* Smaller font size */
@@ -190,10 +211,16 @@ fa-shopping-bag {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 450px) {
     .custom-btn {
         font-size: 10px; /* Smaller font size */
         padding: 5px 10px; /* Adjust padding */
+    }
+
+    .display-1 {
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 1.2;
     }
 }
 
@@ -203,4 +230,49 @@ fa-shopping-bag {
     font-size: 1.6rem;
 }
 
+}
+
+@media (max-width: 1000px) {
+
+    .jumbo { background: rgba(0, 0, 0, 0.15);
+        color:black;
+
+    }
+
+    .jumbotron {
+        height: 90vh;
+        width: 100%;
+        background: url('/media/mobile-home.jpg') no-repeat center center fixed;
+        background-size: cover;
+        color:white;
+    
+    }
+
+    #home {
+        height: 90vh;
+        width: 100%;
+        background: url('/media/mobile-home.jpg') no-repeat center center fixed;
+        background-size: cover;
+    
+    } 
+
+    .card-background {
+        background: url('/media/mobile-home.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .card-text{
+        color:black;
+    }
+
+
+    
+    }
+
+
+/* Media Query for max height of 420px */
+@media (max-height: 700px) {
+    #home {
+        height:auto;
+    }
 }

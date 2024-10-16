@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<!-- 
+
+<div class="container">
+    <div class="row mt-5">
+        <div class="col">
+            <h1 class="google_font"> Review Form </h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 card mb-4 mt-3">
+            <div class="card-body">
+              {% if user.is_authenticated %}
+              <h3>Leave a Review: </h3>
+              <p>Posting as: {{ user.username }}</p>
+              <form id="ReviewForm" method="POST" style="margin-top: 1.3em;">
+                {{ form | crispy }}
+                {% csrf_token %}
+                <button id="submitButton" type="submit" class="btn btn-warning btn-signup btn-lg">Submit</button>
+              </form>
+              {% else %}
+              <p>Log in to leave a Review</p>
+              {% endif %}
+            </div>
+          </div>
+    </div>
+</div>
+-->
+
+
+
+
+
+
+
+{% endblock %}
