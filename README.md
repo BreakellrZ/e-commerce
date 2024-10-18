@@ -1,131 +1,209 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# H1 ***Paradise Pending...*** -- **Porfolio Project 5 @ Code Institute**
 
-Welcome Colin Breakell,
+- ==Paradise Pending== is an online e-commerce clothing store. My thought proccess behind Paradise Pending was to code a bright, happy clothing store with a hint of deep refelction and hope for that feeling of Paradise. I wanted the users to feel as if Paradise was just on the horizon and that no matter how down you may feel right now, paradise is always just around the corner.
+I wanted the clothes to have a summer vibe to it as Summer seems to be the time of the year when most are happy. Summer brings the feelings of Paradise and happiness to most people With the bright sun and the blue skies. I wanted the clothes to reflect this and bring a summer feel, along with the idea and reminder to everyone that things can always get better and that feeling of Paradise is always close by. My idea is to have different clothing drops for differnt seasons of the year. Paradise can come in all of the four seasons but for now I decided to focus on the summer vibes.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+- Paradise Pending has been developer for my Portfolio Project 5 for Code Institue Full Stack Software Deveoper Course using Django, HTML, CSS, JS & Python. As of now this is a fictional Clothing Store for educational Purposes. Any payments made using a valid debit/credit card will not be processed and the card will not be charged. No orders made will be fulfilled.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
-
-### Connecting your Mongo database
-
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+[Paradise Pending live link](https://.herokuapp.com/)
 
 ---
 
-Happy coding!
+![Am I responsive image](documentation/)
+
+---
+
+# **1. Table of content**
+
+
+# **2. User Experience (UX)**
+
+## **2.1. The Strategy Plane**
+The idea for Paradise Pending was to code a fully functional e-commerce store, where users can buy clothes. As stated above I wanted the Store to feel fun, happy and give summer vibes. I wanted the user to feel as if Paradise is pending and it is just around the corner no matter how they may feel at any given moment. For now I wanted the summer feel as most people related Paradise to Summer - Enjoying fruity drinks on the beach and chilling in the sun. Going foward I would like to have a different vibe and feel to the site for different seasons.
+
+### **2.2. The Ideal User**
+My target audience is everyone. No matter what age or gender you are Paradise Pending is for everyone.
+
+- Ideal user likes the idea of Paradise 
+- Ideal user like graphic tees and comfy joggers
+- Ideal user likes the idea that Paradise is always just around the corner
+
+### **2.3. Site Goals**
+- To provide quality clothes for users (This is a fictional educational only website clothes are not for sale)
+- To provide a quick, clear, and effiecent way to purchase clothes
+- To be able to navigate the site with ease
+- To be able to contact us if the user has any queries
+- To be able to write reviews 
+- To provide the users with our message that Paradise is Pending
+
+
+### **2.4 Epics**
+After thinking about my project, 9 Epics were created for this project. These Epics were the main sections of the TParadise Pending project. You can view the Epics via the KanBan board for this project. The Epics consisted of :
+
+- EPIC 1 : Inital Setup + Settings
+- EPIC 2 : Apps
+- EPIC 3 : Templates
+- EPIC 4 : Viewing & Navigation
+- EPIC 5 : Sorting and Searching 
+- EPIC 6 : Purchasing and Checkout
+- EPIC 7 : User Accounts, Autehntication, Authorization & Registration
+- EPIC 8 : Style & Design of UI
+- EPIC 9 : SEO & Web Marketing
+
+ - [Epics](documentation/epics_pp5.png)
+
+ ### **2.5 User stories**
+
+ I had a total of NUMBER HERE User Stoires for this project. I categorized them via Must-Have -- Should-have -- Could have -- & Wont have.
+Must haves were Crucial for this project. Should-haves were I should have this but it is not the end of the world if I do not. Could haves were if I thought something could be in my project, It would be nice to have it but it does not need it. Wont haves were user stories that I wont have in my project due to time restraints or the skills to be able to do it as of now.
+
+**MoSCoW prioritization technique stands for**:
+
+**Must-Have**: Critical requirements that must be implemented for the project to be considered successful.
+
+**Should-Have**: Important requirements that are not critical but add significant value.
+
+**Could-Haves**: Desirable features that would be nice to have but are not crucial.
+
+**Won't-Have**: Features that are explicitly excluded from the project scope.
+
+### List of user stories sorted by Epic :
+
+<details>
+<summary>
+View User Stories for EPIC 1 : ==Inital Setup + Settings==
+</summary>
+
+| Issue                                                               | Title                                  | User Story                                                                                                                 |
+| ------------------------------------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [# 1](https://github.com/BreakellrZ/ParadisePending_e-commerce/issues/10#issue-2473174026) | User Story - Setup Githib Repository    | As a developer I can setup my github repository so that I can organize myslef for this project, & be able to push all my work from my IDE to my github via git.    |
+| [# 2](https://github.com/BreakellrZ/ParadisePending_e-commerce/issues/16#issue-2475355237) | User Story - Install Django python packages + Start/Create Django project | As a developer I can install django so that I can start my project using Django  |
+| [# 3](https://github.com/BreakellrZ/e-commerce/issues/5#issue-2594778436) | User Story - Deploy to Heroku |  As a Developer I can setup heroku so that I can deploy my project on Heroku |
+
+
+</details>
+
+<details>
+<summary>
+View User Stories for EPIC 2 : ==Apps==
+</summary>
+
+| Issue                                                               | Title                                  | User Story                                                                                                                 |
+| ------------------------------------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [# 4](https://github.com/BreakellrZ/ParadisePending_e-commerce/issues/20#issue-2479212282) | User Story - Create Home app    | As a developer I can create a home app so that this will be the app for my home page for paradise pending     |
+| [# 5](https://github.com/BreakellrZ/ParadisePending_e-commerce/issues/25#issue-2484743164) | User Story - Create Products app  | As a developer I can create a products app so that I can create a products page with all paradise pending clothing  |
+| [# 6](https://github.com/BreakellrZ/e-commerce/issues/1#issue-2594689173) | User Story -  Create Bag app | As a developer I can create a Bag app so that I can add products to my Bag  |
+| [# 7](https://github.com/BreakellrZ/e-commerce/issues/2#issue-2594691129) | User Story - Create checkout app   | As a developer I can create a Checkout app so that I can checkout my products |
+| [# 8](https://github.com/BreakellrZ/e-commerce/issues/4#issue-2594695028) | User Story -  Create Reviews app | As a developer I can create a Review app so that users can write reviews |
+| [# 9]() | User Story -  Create Contact app | As a developer I can create a Contact app so that users can contact us |
+| [# 10]() | User Story -  Create FAQ app | As a developer I can create a FAQ app so that users can see frequently asked questions |
+
+
+</details>
+
+<details>
+<summary>
+View User Stories for EPIC 3 : ==Base Templates==
+</summary>
+
+| Issue                                                               | Title                                  | User Story                                                                                                                 |
+| ------------------------------------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [# 11](https://github.com/BreakellrZ/ParadisePending_e-commerce/issues/24#issue-2484732768) | User Story - Create inital Templates folder in root directory + base.html + allauth + includes(Toasts) + Error 404 page   |  As a developer I can create a Templates folder in the root directory so that I can have a base.html, toasts, and error 404 page for the whole project   |
+
+
+
+</details>
+
+
+<details>
+<summary>
+View User Stories for EPIC 4 : ==Viewing and Navigation==
+</summary>
+
+| Issue                                                               | Title                                  | User Story                                                                                                                 |
+| ------------------------------------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [# 12](https://github.com/BreakellrZ/ParadisePending_e-commerce/issues/23#issue-2484721418) | User Story - Create Main site navigation for users   |  As a user I can nagivate around the website via the navbar so that I can easily make my way around Paradise Pending webiste   |
+| [# 13]() | User Story - View a list of products | As a user I can View a list of products that are for sale so that I can view them and add them to my bag to purchase.  |
+| [# 14]() | User Story - View individual product details | As a user I can View individual product details so that I can read all of the details about that specific Product |
+| [# 15]() | User Story - view the total of the users purchases | As a user I can view the total of my purchases so that I know how much I have to pay in total |
+
+
+
+
+</details>
+
+
+<details>
+<summary>
+View User Stories for EPIC 5 : ==Sorting and Searching==
+</summary>
+
+| Issue                                                               | Title                                  | User Story                                                                                                                 |
+| ------------------------------------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [# 4]() | User Story -    |     |
+| [# 5]() | User Story -  |   |
+| [# 6]() | User Story - |   |
+
+
+</details>
+
+
+<details>
+<summary>
+View User Stories for EPIC 6 : ==Purchasing and Checkout==
+</summary>
+
+| Issue                                                               | Title                                  | User Story                                                                                                                 |
+| ------------------------------------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [# 4]() | User Story -    |     |
+| [# 5]() | User Story -  |   |
+| [# 6]() | User Story - |   |
+
+
+</details>
+
+
+<details>
+<summary>
+View User Stories for EPIC 7 : ==User Accounts, Authentication, Authorization & Registration==
+</summary>
+
+| Issue                                                               | Title                                  | User Story                                                                                                                 |
+| ------------------------------------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [# 4]() | User Story -    |     |
+| [# 5]() | User Story -  |   |
+| [# 6]() | User Story - |   |
+
+
+</details>
+
+
+<details>
+<summary>
+View User Stories for EPIC 8 : ==Style & Design of UI==
+</summary>
+
+| Issue                                                               | Title                                  | User Story                                                                                                                 |
+| ------------------------------------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [# 4]() | User Story -    |     |
+| [# 5]() | User Story -  |   |
+| [# 6]() | User Story - |   |
+
+
+</details>
+
+
+<details>
+<summary>
+View User Stories for EPIC 2 : ==SEO + Web Marketing==
+</summary>
+
+| Issue                                                               | Title                                  | User Story                                                                                                                 |
+| ------------------------------------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [# 4]() | User Story -    |     |
+| [# 5]() | User Story -  |   |
+| [# 6]() | User Story - |   |
+
+
+</details>
+
