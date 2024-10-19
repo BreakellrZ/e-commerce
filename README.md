@@ -1,6 +1,6 @@
-# H1 ***Paradise Pending...*** -- **Porfolio Project 5 @ Code Institute**
+#  ***Paradise Pending...*** :sunny: **Porfolio Project 5 @ Code Institute**
 
-- ==Paradise Pending== is an online e-commerce clothing store. My thought proccess behind Paradise Pending was to code a bright, happy clothing store with a hint of deep refelction and hope for that feeling of Paradise. I wanted the users to feel as if Paradise was just on the horizon and that no matter how down you may feel right now, paradise is always just around the corner.
+- <mark>Paradise Pending</mark> is an online e-commerce clothing store. My thought proccess behind Paradise Pending was to code a bright, happy clothing store with a hint of deep refelction and hope for that feeling of Paradise. I wanted the users to feel as if Paradise was just on the horizon and that no matter how down you may feel right now, paradise is always just around the corner.
 I wanted the clothes to have a summer vibe to it as Summer seems to be the time of the year when most are happy. Summer brings the feelings of Paradise and happiness to most people With the bright sun and the blue skies. I wanted the clothes to reflect this and bring a summer feel, along with the idea and reminder to everyone that things can always get better and that feeling of Paradise is always close by. My idea is to have different clothing drops for differnt seasons of the year. Paradise can come in all of the four seasons but for now I decided to focus on the summer vibes.
 
 - Paradise Pending has been developer for my Portfolio Project 5 for Code Institue Full Stack Software Deveoper Course using Django, HTML, CSS, JS & Python. As of now this is a fictional Clothing Store for educational Purposes. Any payments made using a valid debit/credit card will not be processed and the card will not be charged. No orders made will be fulfilled.
@@ -123,9 +123,9 @@ View User Stories for EPIC 4 : ==Viewing and Navigation==
 | Issue                                                               | Title                                  | User Story                                                                                                                 |
 | ------------------------------------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | [# 12](https://github.com/BreakellrZ/ParadisePending_e-commerce/issues/23#issue-2484721418) | User Story - Create Main site navigation for users   |  As a user I can nagivate around the website via the navbar so that I can easily make my way around Paradise Pending webiste   |
-| [# 13]() | User Story - View a list of products | As a user I can View a list of products that are for sale so that I can view them and add them to my bag to purchase.  |
-| [# 14]() | User Story - View individual product details | As a user I can View individual product details so that I can read all of the details about that specific Product |
-| [# 15]() | User Story - view the total of the users purchases | As a user I can view the total of my purchases so that I know how much I have to pay in total |
+| [# 13](https://github.com/BreakellrZ/e-commerce/issues/6#issue-2597510451) | User Story - View a list of products | As a user I can View a list of products that are for sale so that I can view them and add them to my bag to purchase.  |
+| [# 14](https://github.com/BreakellrZ/e-commerce/issues/6#issue-2597510451) | User Story - View individual product details | As a user I can View individual product details so that I can read all of the details about that specific Product |
+| [# 15](https://github.com/BreakellrZ/e-commerce/issues/8#issue-2597535701) | User Story - view the total of the users purchases | As a user I can view the total of my purchases so that I know how much I have to pay in total |
 
 
 
@@ -140,9 +140,10 @@ View User Stories for EPIC 5 : ==Sorting and Searching==
 
 | Issue                                                               | Title                                  | User Story                                                                                                                 |
 | ------------------------------------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| [# 4]() | User Story -    |     |
-| [# 5]() | User Story -  |   |
-| [# 6]() | User Story - |   |
+| [# 16](https://github.com/BreakellrZ/e-commerce/issues/9#issue-2597575806) | User Story -  Sort the list of available products
+   | As a user I can sort the products so that I can view only certain products depending on what I am sorting for    |
+| [# 17](https://github.com/BreakellrZ/e-commerce/issues/10#issue-2597583035) | User Story - Sort by a specific category |  As a user I can sort by a specific category so that I can see only all the products for that specific category  |
+| [# 18](https://github.com/BreakellrZ/e-commerce/issues/11#issue-2597599350) | User Story - Search for a product by name or description |  As a user I can Search for a product by name or description so that I can use the search bar to find what I am looking for easier. |
 
 
 </details>
@@ -155,9 +156,12 @@ View User Stories for EPIC 6 : ==Purchasing and Checkout==
 
 | Issue                                                               | Title                                  | User Story                                                                                                                 |
 | ------------------------------------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| [# 4]() | User Story -    |     |
-| [# 5]() | User Story -  |   |
-| [# 6]() | User Story - |   |
+| [# 19]() | User Story - Select the size and quantity of a product  |     |
+| [# 20]() | User Story - View items in bag |   |
+| [# 21]() | User Story - Adjust quantity of items in bag |   |
+| [# 22]() | User Story - Enter payment information |   |
+| [# 23]() | User Story - View order confirmation after checkout |   |
+| [# 24]() | User Story - Recieve and email confirmation after checking out |   |
 
 
 </details>
@@ -195,7 +199,7 @@ View User Stories for EPIC 8 : ==Style & Design of UI==
 
 <details>
 <summary>
-View User Stories for EPIC 2 : ==SEO + Web Marketing==
+View User Stories for EPIC 9 : ==SEO + Web Marketing==
 </summary>
 
 | Issue                                                               | Title                                  | User Story                                                                                                                 |
