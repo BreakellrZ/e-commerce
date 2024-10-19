@@ -54,7 +54,7 @@ After thinking about my project, 9 Epics were created for this project. These Ep
 
  ### **2.5 User stories**
 
- I had a total of NUMBER HERE User Stoires for this project. I categorized them via Must-Have -- Should-have -- Could have -- & Wont have.
+ I had a total of 30 User Stoires for this project. I categorized them via Must-Have -- Should-have -- Could have -- & Wont have.
 Must haves were Crucial for this project. Should-haves were I should have this but it is not the end of the world if I do not. Could haves were if I thought something could be in my project, It would be nice to have it but it does not need it. Wont haves were user stories that I wont have in my project due to time restraints or the skills to be able to do it as of now.
 
 **MoSCoW prioritization technique stands for**:
@@ -71,7 +71,7 @@ Must haves were Crucial for this project. Should-haves were I should have this b
 
 <details>
 <summary>
-View User Stories for EPIC 1 : ==Inital Setup + Settings==
+View User Stories for EPIC 1 : <mark>Inital Setup + Settings</mark>
 </summary>
 
 | Issue                                                               | Title                                  | User Story                                                                                                                 |
@@ -85,7 +85,7 @@ View User Stories for EPIC 1 : ==Inital Setup + Settings==
 
 <details>
 <summary>
-View User Stories for EPIC 2 : ==Apps==
+View User Stories for EPIC 2 : <mark>Apps</mark>
 </summary>
 
 | Issue                                                               | Title                                  | User Story                                                                                                                 |
@@ -103,7 +103,7 @@ View User Stories for EPIC 2 : ==Apps==
 
 <details>
 <summary>
-View User Stories for EPIC 3 : ==Base Templates==
+View User Stories for EPIC 3 : <mark>Base Templates</mark>
 </summary>
 
 | Issue                                                               | Title                                  | User Story                                                                                                                 |
@@ -117,7 +117,7 @@ View User Stories for EPIC 3 : ==Base Templates==
 
 <details>
 <summary>
-View User Stories for EPIC 4 : ==Viewing and Navigation==
+View User Stories for EPIC 4 : <mark>Viewing and Navigation</mark>
 </summary>
 
 | Issue                                                               | Title                                  | User Story                                                                                                                 |
@@ -135,7 +135,7 @@ View User Stories for EPIC 4 : ==Viewing and Navigation==
 
 <details>
 <summary>
-View User Stories for EPIC 5 : ==Sorting and Searching==
+View User Stories for EPIC 5 : <mark>Sorting and Searching</mark>
 </summary>
 
 | Issue                                                               | Title                                  | User Story                                                                                                                 |
@@ -151,17 +151,17 @@ View User Stories for EPIC 5 : ==Sorting and Searching==
 
 <details>
 <summary>
-View User Stories for EPIC 6 : ==Purchasing and Checkout==
+View User Stories for EPIC 6 : <mark>Purchasing and Checkout</mark>
 </summary>
 
 | Issue                                                               | Title                                  | User Story                                                                                                                 |
 | ------------------------------------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| [# 19]() | User Story - Select the size and quantity of a product  |     |
-| [# 20]() | User Story - View items in bag |   |
-| [# 21]() | User Story - Adjust quantity of items in bag |   |
-| [# 22]() | User Story - Enter payment information |   |
-| [# 23]() | User Story - View order confirmation after checkout |   |
-| [# 24]() | User Story - Recieve and email confirmation after checking out |   |
+| [# 19](https://github.com/BreakellrZ/e-commerce/issues/12#issue-2597783640) | User Story - Select the size and quantity of a product  |  As a user I can Select the size and quantity of a product so that buy as many as I would like and buy them in my size   |
+| [# 20](https://github.com/BreakellrZ/e-commerce/issues/13#issue-2597790807) | User Story - View items in bag |  As a user I can View items in a bag so that I can see exactly what I will be purchasing |
+| [# 21](https://github.com/BreakellrZ/e-commerce/issues/14#issue-2597797020) | User Story - Adjust quantity of items in bag | As a user I can adjust the quanity of items in a bag so that *I can add or delete more items if I change my mind in the bag  |
+| [# 22](https://github.com/BreakellrZ/e-commerce/issues/15#issue-2599118204) | User Story - Enter payment information | As a user I can enter payment information so that I can purchase items  |
+| [# 23](https://github.com/BreakellrZ/e-commerce/issues/16#issue-2599122639) | User Story - View order confirmation after checkout | As a user I can aview order confirmation after checkout so that *I can view what I have just purchased  |
+| [# 24](https://github.com/BreakellrZ/e-commerce/issues/17#issue-2599125770) | User Story - Recieve an email confirmation after checking out |  As a user I can recieve and email confirmation after checkout so that *I can get confirmation that I purchased the items |
 
 
 </details>
@@ -169,7 +169,22 @@ View User Stories for EPIC 6 : ==Purchasing and Checkout==
 
 <details>
 <summary>
-View User Stories for EPIC 7 : ==User Accounts, Authentication, Authorization & Registration==
+View User Stories for EPIC 7 : <mark>User Accounts, Authentication, Authorization & Registration</mark>
+</summary>
+
+| Issue                                                               | Title                                  | User Story                                                                                                                 |
+| ------------------------------------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [# 25](https://github.com/BreakellrZ/ParadisePending_e-commerce/issues/17#issue-2475368421) | User Story - Create Superuser   |   As a developer I can create a superuser so that I can access the django admin panel and use CRUD functionalities from the admin panel  |
+| [# 26](https://github.com/BreakellrZ/e-commerce/issues/18#issue-2599161148) | User Story - Setup AllAuth | As a developer I can setup AllAuth so users can Register, Login, and Logout successfully on Paradise Pending  |
+| [# 27](https://github.com/BreakellrZ/e-commerce/issues/19#issue-2599163481) | User Story - Create and View my own Profile as a user | As a user I can create and view my own profile so that I can look back on my old purchases and save my profile information for next time  |
+
+
+</details>
+
+
+<details>
+<summary>
+View User Stories for EPIC 8 : <mark>SEO + Web Marketing</mark>
 </summary>
 
 | Issue                                                               | Title                                  | User Story                                                                                                                 |
@@ -181,33 +196,73 @@ View User Stories for EPIC 7 : ==User Accounts, Authentication, Authorization & 
 
 </details>
 
+[Back to top]()
 
-<details>
-<summary>
-View User Stories for EPIC 8 : ==Style & Design of UI==
-</summary>
+## **2.2. The Scope Plane**
 
-| Issue                                                               | Title                                  | User Story                                                                                                                 |
-| ------------------------------------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| [# 4]() | User Story -    |     |
-| [# 5]() | User Story -  |   |
-| [# 6]() | User Story - |   |
+The scope of this project was to try and nail down the Stripe API and to deliver a fully functional e-commerce website. Since this was my first time implementing Stripe it was the main focus. MVP was the goal for this project due to time restraints. Anything more would be a big bonus :smile: 
+
+The scope plans contained the following features to be added.
+
+### Features to be implemented
+- User Accounts with AllAuth
+- Payment system with Stripe
+- Reviews with full CRUD 
+- F.A.Q Section
+- Contact form for users to ask and send over questions
+- Product inventory management - Full CRUD
+- Fully functioning bag and checkout proccess
+- Site responsivity
+
+## **2.3. The Structure Plane**
+
+**The structure of Paradise Pending is consistent, predictable, learnable, and visible, all in the best way using Bootstrap for styling and layout.**
+
+It involves a nice clean header with the Paradise Pending logo at the far left. Alongside the logo is links to the Home page and a clothing dropdown menu where the user can pick which category of clothing they want to look for. On the right hand side then we have a 'My account' dropdown menu where users can register, Login, or logout. Beside that is that shooping bag that holds the users products in the bag itself, then lastly we have the Search bar for users to search products with.
+
+The main section of the home page consists of a nice Jumbotron with some text and then a full width and height background image showcasing paradise pendings style.
+
+Below that then we have the reviews section a nice card shaped area for users to look through reviews via the carousel.
+
+Next, Is the f.a.q section, and finally we have a contact form section for users to contact us from.
+
+At the bottom of the page we have a sleek footer. 
+
+The header and footer are on all pages throughout the site, to keep it consistent. 
+
+The clothing page itself has a structure of a card layout. Each piece of clothing has its own card layout involving a picture and the price and rating. 
+
+The product detail page has a structure of the image of the product on the left, on the right is a description of the product and all the neccessary details. 
+
+The bag and checkout structure is clean and easy to navigate for the users.
+
+[Back to top]()
 
 
-</details>
+## **2.4. The Skeleton Plane**
+
+###  Wire-frames
+
+**I used Balsamiq for my wireframes. This is what I came up for Paradise Pending :**
 
 
-<details>
-<summary>
-View User Stories for EPIC 9 : ==SEO + Web Marketing==
-</summary>
 
-| Issue                                                               | Title                                  | User Story                                                                                                                 |
-| ------------------------------------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| [# 4]() | User Story -    |     |
-| [# 5]() | User Story -  |   |
-| [# 6]() | User Story - |   |
+## **3.5. The Surface Plane**
+
+From the beginning of the project, I knew that the color palette would reflect summer vibes, lots of bright colors to indicate Paradise to the users. I wanted to give a happy positive look to the surface plane. 
+
+I used bootstrap set colors for most of the website. I used the 'warning' color for the buttons and links on the site along with the shopping bag logo. I wanted to keep the colors as consistent as possible. 
+
+- [Colors](documentation/color_pp5.png)
+
+Black (text-dark) or white (text-light) was used as the main colors for text. These colors give the best contrast.
 
 
-</details>
+- [Colors](documentation/color_2_pp5.png)
+
+
+- [Colors](documentation/bag_color.png)
+
+
+
 
