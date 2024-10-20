@@ -3,7 +3,7 @@
 - <mark>Paradise Pending</mark> is an online e-commerce clothing store. My thought proccess behind Paradise Pending was to code a bright, happy clothing store with a hint of deep refelction and hope for that feeling of Paradise. I wanted the users to feel as if Paradise was just on the horizon and that no matter how down you may feel right now, paradise is always just around the corner.
 I wanted the clothes to have a summer vibe to it as Summer seems to be the time of the year when most are happy. Summer brings the feelings of Paradise and happiness to most people With the bright sun and the blue skies. I wanted the clothes to reflect this and bring a summer feel, along with the idea and reminder to everyone that things can always get better and that feeling of Paradise is always close by. My idea is to have different clothing drops for differnt seasons of the year. Paradise can come in all of the four seasons but for now I decided to focus on the summer vibes.
 
-- Paradise Pending has been developer for my Portfolio Project 5 for Code Institue Full Stack Software Deveoper Course using Django, HTML, CSS, JS & Python. As of now this is a fictional Clothing Store for educational Purposes. Any payments made using a valid debit/credit card will not be processed and the card will not be charged. No orders made will be fulfilled.
+- <mark>Paradise Pending</mark> has been developed for my Portfolio Project 5 for Code Institue Full Stack Software Deveoper Course using Django, HTML, CSS, JS & Python. As of now this is a fictional Clothing Store for educational Purposes. Any payments made using a valid debit/credit card will not be processed and the card will not be charged. No orders made will be fulfilled.
 
 [Paradise Pending live link](https://.herokuapp.com/)
 
@@ -47,10 +47,9 @@ After thinking about my project, 9 Epics were created for this project. These Ep
 - EPIC 5 : Sorting and Searching 
 - EPIC 6 : Purchasing and Checkout
 - EPIC 7 : User Accounts, Autehntication, Authorization & Registration
-- EPIC 8 : Style & Design of UI
-- EPIC 9 : SEO & Web Marketing
+- EPIC 8: SEO & Web Marketing
 
- - [Epics](documentation/epics_pp5.png)
+  ![Epics](documentation/epics_pp5.png)
 
  ### **2.5 User stories**
 
@@ -253,15 +252,120 @@ From the beginning of the project, I knew that the color palette would reflect s
 
 I used bootstrap set colors for most of the website. I used the 'warning' color for the buttons and links on the site along with the shopping bag logo. I wanted to keep the colors as consistent as possible. 
 
-- [Colors](documentation/color_pp5.png)
+ ![Colors](documentation/color_pp5.png)
 
 Black (text-dark) or white (text-light) was used as the main colors for text. These colors give the best contrast.
 
 
-- [Colors](documentation/color_2_pp5.png)
+ ![Colors](documentation/color_2_pp5.png)
 
 
-- [Colors](documentation/bag_color.png)
+ ![Colors](documentation/bag_color.png)
+
+ ## **4. Database Schemas**
+
+ ## **5. Features**
+
+ **There was numerous features to implement in this project. Here is a list of all the features:**
+
+ #### **Header** ####
+
+- The header was incorporated using Bootstrap. It contains the Paradise Pending logo on the left hand-side, along with the links to the clothing pages via a dropdown menu. On the right hand side there is a 'My account' Dropdown link. Here users will find links to be able to register for an account, login, or logout, depending if the user is logged in or not. SuperUsers also have the links to product managment in here. Beside 'My Account' is the shopping bag and then alongside that is the search bar. Above the header there is also a sub-header showing users that they will be awarded free delivery on orders above 50 euro.
+
+![Header](documentation/header_pp5.png)
+
+#### **Landing page** #### 
+- The landing page is to give users a clear indication of to what this website is all about. A big clear jumbotron message to Paradise Pending is on show here. 
+
+![Landing page](documentation/lading_page_pp5.png)
+
+
+#### **Pop up toasts: Gives users a message when they execute an action such as purchasing an item or logging in** #### 
+- The pop up messages are used a number of times in this website. They provide the users with reassurance that there action was executed correctly. This will display on the top right hand side of the screen.
+
+![Toasts](documentation/toasts_pp5.png)
+
+#### **Reviews** ####
+
+- The review Feature is on the main home page. This feature involves a Carousel with numerous reviews being showcased. Users can also click on "Create a review" button and will be taken to a seperate page to create there own reviews and use CRUD functionality.
+
+![Reviews](documentation/reviews_pp5.png)
+
+#### **F.A.Q** ####
+
+- The F.A.Q feature is also on the main page, here users can look at the most frequently asked questions. There will also be a button to contact us where you can ask your own questions to us.
+
+![FAQ]()
+
+
+#### **Contact us** ####
+
+- The contact us feature is for users to ask any questions they may have. Here they can enter their emails and ask whatever question they would like.
+
+![Contact us]()
+
+#### **Clothing** ####
+
+- The Products page is where all itmes will be shown. This involves a loop of all the products . Each product is inside a card and shows an image and price details along with a star rating. 
+
+![Products](documentation/products_pp5.png)
+
+#### **Sort by** ####
+
+- The sort by feature allows users to search by a specific variable for example users can search from price low to high or search for ratings high to low.
+
+![Sort By](documentation/sort_by_pp5.png)
+
+#### **Product detail page** ####
+
+- The product detail page has numerous features, these include a image of the product itself and a description. There is a size dropdown menu for users to choose their size. Also there is a quanity form that allows users to choose the amount of items they want per product, they can use the plus or minus buttons to make the quantity go up or down. 
+
+![Product Detail](documentation/products_pp5.png)
+
+#### **Edit and or Delete functionality for SuperUsers** ####
+
+- There is an edit and delete button on all prodcuts that superusers can click on to edit their products on the frontend without having to use the admin panel. The edit button will bring the superusers to a new  Product Managment page where they can edit the item just as if it was in the admin panel. The product managment page can also be accessed in the 'My account link' to create a new prodcut.
+
+![Edit/Delete buttons](documentation/edit_delete_pp5.png)
+
+![edit page](documentation/edit_page_pp5.png)
+
+- #### **My Profile** ####
+
+- My profile feature allows users to update their information and view their order history.
+
+![Profile](documentation/my_profile_pp5.png)
+
+#### **Shopping Bag** ####
+
+- The shopping bag feature involves holding items in a virtual bag so you can purchase your products from there. It involes a summary of the items you added to your bag along with the total of the cost. Alongside this is another nice feature which calculates the delivery threshold, if you are below the threshold for free delivery, it will show you how much more you will need to spend to get free shipping. 
+
+![Shopping bag](documentation/shopping_bag_pp5.png)
+
+
+![Delivery](documentation/delivery_pp5.png)
+
+#### **Checkout** ####
+
+- The checkout page feature involves a form for users to fill out their checkout details and a order summary to show them what they are buying. Stripe is used here for the proccesing of the purchases.
+
+![Checkout page](documentation/checkout_pp5.png)
+
+#### **Checkout Complete** ####
+
+- The checkout complete feature involes a page with a thank you message that is sent to your email. Along with this is your order info shown and a success message if you order was completed.
+
+![Checkout successfull](documentation/checkout_complete_pp5.png)
+
+#### **Search bar** ####
+
+- A feature on the navbar involves a search bar, where users can search keywords for the products they are looking for. When they click search, the website will bring them to the items that are relevant to their search. 
+
+![Search bar](documentation/search_bar_pp5.png)
+
+#### **Footer** #### 
+
+- The footer is at the bottom of each page.
 
 
 
