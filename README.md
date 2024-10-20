@@ -13,10 +13,10 @@ I wanted the clothes to have a summer vibe to it as Summer seems to be the time 
 
 ---
 
-# **1. Table of content**
+# **1. Table of content :mortar_board:**
 
 
-# **2. User Experience (UX)**
+# **2. User Experience (UX) :art:**
 
 ## **2.1. The Strategy Plane**
 The idea for Paradise Pending was to code a fully functional e-commerce store, where users can buy clothes. As stated above I wanted the Store to feel fun, happy and give summer vibes. I wanted the user to feel as if Paradise is pending and it is just around the corner no matter how they may feel at any given moment. For now I wanted the summer feel as most people related Paradise to Summer - Enjoying fruity drinks on the beach and chilling in the sun. Going foward I would like to have a different vibe and feel to the site for different seasons.
@@ -262,9 +262,9 @@ Black (text-dark) or white (text-light) was used as the main colors for text. Th
 
  ![Colors](documentation/bag_color.png)
 
- ## **4. Database Schemas**
+ ## **4. Database Schemas :chart_with_upwards_trend:**
 
- ## **5. Features**
+ ## **5. Features :gem:**
 
  **There was numerous features to implement in this project. Here is a list of all the features:**
 
@@ -368,14 +368,14 @@ Black (text-dark) or white (text-light) was used as the main colors for text. Th
 - The footer is at the bottom of each page.
 
 
-## **6. Future Features**
+## **6. Future Features :diamonds:**
 I have a lot of Ideas for future features for Paradise Pending. My main two ideas include :
 
 - A wishlist for users to add items to a wishlist.
 
 -  An about us section, to delve deeper into Paradise Pending as a business.
 
-# **7. Validation, Testing & Bugs**
+# **7. Validation, Testing & Bugs :bug:**
 
 ## **7.1. Validation**
 - Pep 8 CI Validator tests: 
@@ -396,7 +396,7 @@ I have a lot of Ideas for future features for Paradise Pending. My main two idea
 
 ## **7.3. Bugs**
 
-# **8. Deployment**
+# **8. Deployment :sunrise_over_mountains:**
 
 ### **8.1. Deployment with Heroku** ###
 These are the steps I took to deploy my project to Heroku.
@@ -584,7 +584,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 7. Press Enter. Your local clone will be created.
 
 
-## **9. Technologies & Credits** ###
+## **9. Technologies & Credits :anchor:** ###
 
 ### **9.1. Technologies/Libraries & Frameworks used to develop and deploy this project** ###
 
