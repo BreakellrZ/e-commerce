@@ -11,6 +11,10 @@ body {
     padding-top:100px;
 }
 
+#faq {
+    background-color:  rgb(243, 243, 243);
+}
+
 #home {
     height: 90vh;
     width: 100%;

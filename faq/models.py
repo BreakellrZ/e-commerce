@@ -15,7 +15,7 @@ class Faq(models.Model):
 class Question(models.Model):
     name = models.CharField(max_length=254)
     email = models.EmailField(max_length=254)
-    question_asked = models.CharField(max_length=254)
+    question_asked = models.TextField()
 
     def __str__(self):
         return self.question_asked
