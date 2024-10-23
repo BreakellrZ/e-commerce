@@ -6,6 +6,7 @@ from products.models import Product
 
 
 class Reviews(models.Model):
+
     product = models.ForeignKey(
         Product, on_delete=models.CASCADE, related_name='reviews')
     body = models.TextField(max_length=100)
@@ -17,6 +18,7 @@ class Reviews(models.Model):
 
     class Meta:
         ordering = ['created_on']
+        verbose_name_plural = "Reviews"
 
     def __str__(self):
         return f'Review by {self.author} on {self.product}'

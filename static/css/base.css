@@ -57,9 +57,11 @@ body {
 
 }
 
+
 .card-background {
     background: url('/media/home_hero.png') no-repeat center center fixed;
     background-size: cover;
+    
 }
 
 

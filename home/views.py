@@ -1,16 +1,19 @@
 from django.shortcuts import render
 from faq.models import Faq
+from reviews.models import Reviews
 from django.contrib import messages
 from faq.forms import QuestionForm
 
+
 # Create your views here.
-
-
 def index(request):
-    """ A view to return index page along with reviews and faqs """
+    """ A view to display Home page along with reviews and faqs """
 
+    # Get all faqs from Faq model
     faqs = Faq.objects.all()
+    reviews = Reviews.objects.all()
 
+    # Contact us Form
     if request.method == 'POST':
         form = QuestionForm(request.POST)
         if form.is_valid():
@@ -22,5 +25,6 @@ def index(request):
         form = QuestionForm
 
     context = {'faqs': faqs,
+               'reviews': reviews,
                'form': form}
     return render(request, 'home/index.html', context)
