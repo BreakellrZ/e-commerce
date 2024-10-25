@@ -9,9 +9,9 @@ from faq.forms import QuestionForm
 def index(request):
     """ A view to display Home page along with reviews and faqs """
 
-    # Get all faqs from Faq model
+    # Get all faqs from Faq model and the most recent 6 reviews
     faqs = Faq.objects.all()
-    reviews = Reviews.objects.all()
+    reviews = Reviews.objects.order_by('-created_on')[:6]
 
     # Contact us Form
     if request.method == 'POST':

@@ -5,7 +5,7 @@
   </div>
   </div>
   
-  <div class="row mb-4">
+ <!--  <div class="row mb-4">
     <div class="col-12 mb-5">
       <div id="carouselExampleControls" class="carousel card slide card-background d-flex flex-column text-start h-100 justify-content-start fw-bold text-light" data-ride="carousel">
         <div class="carousel-innery">
@@ -34,4 +34,29 @@
       
     </div>
   </div>
+  -->
+
+  <div class="row">
+    {% for review in reviews %}
+      <div class="col-md-4 mb-4">
+        <div class="card border-warning h-100">
+          <div class="card-body">
+            <h5 class="card-header mb-4">{{ review.product }}</h5>
+            <p class="card-text">{{ review.body|truncatewords:30 }}</p>
+            <hr class="border-secondary">
+            <h6 class="card-subtitle mb-2 text-muted">Rating: {{ review.rating }}/5</h6>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">By {{ review.author }} on {{ review.created_on|date:"F d, Y" }}</small>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+
+  
+
+
+
   </div>
