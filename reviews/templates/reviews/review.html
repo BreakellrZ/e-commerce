@@ -42,12 +42,14 @@
         <div class="card border-warning h-100">
           <div class="card-body">
             <h5 class="card-header mb-4">{{ review.product }}</h5>
-            <p class="card-text">{{ review.body|truncatewords:30 }}</p>
+            <p class="card-text">{{ review.body|truncatewords:50 }}</p>
             <hr class="border-secondary">
             <h6 class="card-subtitle mb-2 text-muted">Rating: {{ review.rating }}/5</h6>
           </div>
           <div class="card-footer">
             <small class="text-muted">By {{ review.author }} on {{ review.created_on|date:"F d, Y" }}</small>
+            <hr>
+            <a class="btn btn-warning" href="{% url 'review_create' %}">Create Review</a>
           </div>
         </div>
       </div>

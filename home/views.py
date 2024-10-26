@@ -22,9 +22,9 @@ def index(request):
         messages.success(
             request, 'Your Question has been sent, please allow up to 24 hours for a reply. Thank you for contacting Paradise Pending')
     else:
-        form = QuestionForm
+        form = QuestionForm()
 
     context = {'faqs': faqs,
                'reviews': reviews,
-               'form': form}
+               'form': form} 
     return render(request, 'home/index.html', context)
