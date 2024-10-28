@@ -19,14 +19,9 @@ def review_create(request):
             review.save()
 
     else:
-        form= ReviewForm()
+        form = ReviewForm()
 
     context = {'form': form,
-    'reviews': reviews,}
+               'reviews': reviews, }
 
     return render(request, 'reviews/review_form.html', context)
-
-            
-
-
-
