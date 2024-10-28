@@ -103,7 +103,8 @@ class StripeWH_Handler:
             return HttpResponse(
                 content=f'Webhook received: {
                     event["type"]} | SUCCESS: Verified order already in database',
-                status=200)
+                status=200
+            )
         else:
             order = None
             try:
