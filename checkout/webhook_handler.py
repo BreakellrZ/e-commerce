@@ -9,7 +9,6 @@ from profiles.models import UserProfile
 
 import json
 import time
-
 import stripe
 
 
@@ -43,6 +42,8 @@ class StripeWH_Handler:
             settings.DEFAULT_FROM_EMAIL,
             [cust_email]
         )
+
+        print(body)
 
     def handle_payment_intent_succeeded(self, event):
         """
@@ -146,12 +147,12 @@ class StripeWH_Handler:
                     order.delete()
                 return HttpResponse(
                     content=f'Webhook received: {event["type"]} | ERROR: {e}',
-                    status=200)
+                    status=500)
 
         self._send_confirmation_email(order)
         return HttpResponse(
              content=f'Webhook received: {event["type"]} | SUCCESS: Created order in webhook',
-             status=500
+             status=200
              )
 
     def handle_payment_intent_payment_failed(self, event):
