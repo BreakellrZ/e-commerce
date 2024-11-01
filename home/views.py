@@ -26,5 +26,5 @@ def index(request):
 
     context = {'faqs': faqs,
                'reviews': reviews,
-               'form': form} 
+               'form': form}
     return render(request, 'home/index.html', context)

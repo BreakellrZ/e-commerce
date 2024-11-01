@@ -10,6 +10,8 @@ from profiles.models import UserProfile
 import json
 import time
 
+import stripe
+
 
 class StripeWH_Handler:
     """Handle Stripe webhooks"""
@@ -145,10 +147,12 @@ class StripeWH_Handler:
                 return HttpResponse(
                     content=f'Webhook received: {event["type"]} | ERROR: {e}',
                     status=200)
-            self._send_confirmation_email(order)
+
+        self._send_confirmation_email(order)
         return HttpResponse(
              content=f'Webhook received: {event["type"]} | SUCCESS: Created order in webhook',
-             status=500)
+             status=500
+             )
 
     def handle_payment_intent_payment_failed(self, event):
         """
