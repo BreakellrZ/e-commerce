@@ -21,7 +21,7 @@
     <div class="row my-4">
         <div class=" col-12 col-md-6">
             {% for review in reviews %}
-    <div class="card my-3">
+    <div class="card my-3 bg-light bg-gradient text-dark font-weight-bold rounded transition">
         <div class="card-header text-warning font-weight-bold">{{ review.product }}</div>
         <p class="font-weight-bold card-body ">{{ review.body|truncatewords:50 }}</p>
         <div class="card-footer">
@@ -34,9 +34,9 @@
 {% endfor %}
         </div>
 
-        <div class="col-12 col-md-6 my-3">
-            <h1> Create Review here </h1>
-            <form id="ReviewForm" method="post" style="margin-top: 1.3em;">
+        <div class="col-12 col-md-6 my-3 ">
+            <h1> <ins> Create Review here </ins> </h1>
+            <form id="ReviewForm" method="post" style="margin-top: 1.3em;" class=" p-3 bg-dark bg-gradient text-light font-weight-bold rounded">
               {{ form | crispy }}
               {% csrf_token %}
               <button id="submitButton" type="submit" class="btn btn-warning btn-signup btn-lg mb-2">Submit</button>

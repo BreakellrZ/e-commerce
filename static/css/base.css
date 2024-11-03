@@ -79,10 +79,17 @@ body {
     transition: box-shadow .5s;
 }
 
+.transition {
+    transition: box-shadow .5s;
+}
+
+.transition:hover {
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.45);
+  }
+
 fa-shopping-bag {
     color: #FFC107
 }
-
 
 .product-container:hover {
     box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.45);
