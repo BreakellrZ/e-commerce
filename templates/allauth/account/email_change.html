@@ -1,9 +1,11 @@
-{% extends "account/base.html" %}
+{% extends "base.html" %}
 {% load i18n %}
 {% block head_title %}
     {% trans "Email Address" %}
 {% endblock %}
 {% block content %}
+<hr class="border mt-5">
+<div class="container text-center my-5">
     <h1>{% trans "Email Address" %}</h1>
     {% if emailaddresses %}
         {% if current_emailaddress %}
@@ -30,4 +32,5 @@
         {{ form.as_p }}
         <button name="action_add" type="submit">{% trans "Change Email" %}</button>
     </form>
+    </div>
 {% endblock %}
