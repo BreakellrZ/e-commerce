@@ -204,6 +204,34 @@
     {% block content %} 
     {% endblock %} 
 
+    <footer class="footer mt-5 py-3 bg-dark text-light w-100">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <h3 class="google_font">Paradise Pending</h3>
+            <p class="text-danger">This webiste is for educational purposes. It is not a real clothing site. Payments made will not be proccessed, and you will not recieve any items.</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="{% url 'home' %}" class="text-warning">Home</a></li>
+              <li><a href="{% url 'profile' %}" class="text-warning">My Profile</a></li>
+              <li><a href="{% url 'home' %}" class="text-warning">FAQ // Contact us</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Follow Us</h5>
+            <a href="#" class="text-decoration-none me-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-decoration-none me-2"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-decoration-none me-2"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <hr>
+        <p class="text-center">&copy; 2024 Paradise Pending. All rights reserved.</p>
+      </div>
+    </footer>
+    
+
     {% block postloadjs %} 
     <script type="text/javascript">
       $('.toast').toast('show');
