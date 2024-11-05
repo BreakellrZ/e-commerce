@@ -1,13 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block page_header %}
-<div class="container header-container">
-  <div class="row">
-    <div class="col"></div>
-  </div>
-</div>
-{% endblock %}
+c
 
 {% block content %}
 <div class="container-fluid">
@@ -27,8 +21,10 @@
         <div class="card-footer">
         <p class="text-muted">Review from: {{ review.author }} - {{ review.rating }}/5</p>
         <hr>
-        <a class="btn btn-warning" href="">Edit</a>
-        <a class="btn btn-danger" href="">Delete</a>
+        {% if user.is_authenticated and review.author == user %}
+        <a class="btn btn-warning" href="{% url 'review_update' review.id%}">Edit</a>
+        <a class="btn btn-danger" href="{% url 'review_delete' review.id%}">Delete</a>
+        {% endif %}
     </div>
     </div>
 {% endfor %}

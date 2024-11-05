@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     padding-top:100px;
 }
@@ -22,6 +22,14 @@ body {
     background-size: cover;
     opacity: .9;
 } 
+
+
+.centered-container {
+    height:100vh;
+    width: 80%; /* or any specific width */
+    margin: 0 auto;
+  }
+
 
 
 .icon {
@@ -283,7 +291,7 @@ section {
     }
 
 
-/* Media Query for max height of 420px */
+/* Media Query for max height of 700px */
 @media (max-height: 700px) {
     #home {
         height:auto;
