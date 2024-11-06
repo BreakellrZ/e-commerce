@@ -15,6 +15,7 @@ c
     <div class="row my-4">
         <div class=" col-12 col-md-6">
             {% for review in reviews %}
+            {% if review.approved %}
     <div class="card my-3 bg-light bg-gradient text-dark font-weight-bold rounded transition">
         <div class="card-header text-warning font-weight-bold">{{ review.product }}</div>
         <p class="font-weight-bold card-body ">{{ review.body|truncatewords:50 }}</p>
@@ -27,6 +28,7 @@ c
         {% endif %}
     </div>
     </div>
+    {% endif %}
 {% endfor %}
         </div>
 
@@ -38,9 +40,7 @@ c
               <button id="submitButton" type="submit" class="btn btn-warning btn-signup btn-lg mb-2">Submit</button>
             </form>
           </div>
-
-
-
+</div>
     </div>
 
     {% endblock %}

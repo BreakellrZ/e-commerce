@@ -13,6 +13,7 @@ class Reviews(models.Model):
     rating = models.PositiveIntegerField(choices=[(i, i) for i in range(1, 6)])
     created_on = models.DateTimeField(auto_now_add=True)
     updated_on = models.DateTimeField(auto_now=True)
+    approved = models.BooleanField(default=False)
     author = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name='reviews')
 
