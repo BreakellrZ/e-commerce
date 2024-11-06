@@ -34,6 +34,10 @@ footer {
     opacity: .9;
 } 
 
+.products {
+    background-color: rgba(219, 219, 219, 1)
+}
+
 
 .centered-container {
     height:100vh;
