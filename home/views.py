@@ -11,7 +11,7 @@ def index(request):
 
     # Get all faqs from Faq model and the most recent 6 reviews
     faqs = Faq.objects.all()
-    reviews = Reviews.objects.order_by('-created_on')[:6]
+    reviews = Reviews.objects.order_by('-created_on')[:7]
 
     # Contact us Form
     if request.method == 'POST':

@@ -11,6 +11,12 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
 
+     <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="media/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="media/favicon-16x16.png">
+  <link rel="manifest" href="media/site.webmanifest">
+
     <!-- Bootstrap CSS -->
     {% block corecss %}
     <link
@@ -110,9 +116,6 @@
                 <a class="dropdown-item" href="{% url 'products' %}?sort=rating&direction=desc">By Rating</a>
                 <a class="dropdown-item" href="{% url 'products' %}?sort=category&direction=asc">By Category</a>
               </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-danger" href="{% url 'products' %}?category=Sale">Sale</a>
             </li>
           </ul>
           <ul class="navbar-nav ml-auto">
