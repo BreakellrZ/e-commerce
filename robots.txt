@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /admin/
+Disallow: /bag/
+Disallow: /checkout/
+Disallow: /profile/
+Sitemap: https://paradise-pending-e-commerce-49bae7a1ea52.herokuapp.com/sitemap.xml
