@@ -379,9 +379,26 @@ I have a lot of Ideas for future features for Paradise Pending. My main two idea
 
 -  An about us section, to delve deeper into Paradise Pending as a business.
 
-# **7. Validation, Testing & Bugs :bug:**
+## **7. Marketing and SEO :laptop:**
 
-## **7.1. Validation**
+- SEO was key in my marketing strategy. I used short-tail and long-tail keywords in my code. I decided to make a list of important, relevant topics based on a clothing e-commerce store, then took keywords from them topics. For example some of the topics were: Summer T-shirts, Paradise, and custom T-shirts. I then took keywords such as happy t-shirts, cool summer tops for men, high quality stylish clothing, summer, summer vibes, etc. Some tools I used to help me were [WordTracker](https://www.wordtracker.com/search) to see what reaches most of the market, I also looked on Google itself to see what people were asking and seeing what words were autofilling in the searchbar. All of these can help figure out keywords for good SEO.Ideally I wanted to use keywords that have high enough volume but low enough competition.
+
+- Within the code I made sure to have some keywords inside of semantic elements,<em></em> and <strong> </strong> tags were used for some keywords. It is good to use keywords inside of links and alt attributes for images.
+I placed as many keywords as possible inside of metadata at the start of my base.html file, here is the only place you should stuff your keywords.
+
+- Important SEO files to add were Sitemap.xml and robots.txt. The sitemap.xml file helps search engines to understand Paradise Pendings website structure. It will crawl every essential page on my site.
+robots.txt file was added so it tells the seach engine where it is not allowed to go on my site. This file improves SEO ranking.
+
+- Some things to remeber is that Content is king. Genuine useful and trustworthy content is what helps ranking the most. Click rate time, Bounce rate, dwell time, session time etc are all important for SEO.
+
+- For marketing I setup a mock Facebook page to demonstrate and promote Paradise Pending. Posts would be made on this Facebook Page to entice users to buy from my store. Facebook has a lot of reach and social media marketing can be a great way to get new buyers. MailChimp was also used for users to signup to to recieve newsletters with great deals on the Paradise Pending website.
+
+![Facebook Page](documentation/facebook_page.png)
+![Facebook Page2](documentation//facebook_page_2.png)
+
+# **8. Validation, Testing & Bugs :bug:**
+
+## **8.1. Validation**
 - Pep 8 CI Validator tests: 
 
 
@@ -393,16 +410,16 @@ I have a lot of Ideas for future features for Paradise Pending. My main two idea
 
   #### **Lighthouse scores :** ####
 
-  ## **7.2. Testing**
+  ## **8.2. Testing**
 |Epic|What the test is|How I done the test|Outcome|
 |-------------|------------------|-----------|-------|
 ||||| 
 
-## **7.3. Bugs**
+## **8.3. Bugs**
 
-# **8. Deployment :sunrise_over_mountains:**
+# **9. Deployment :sunrise_over_mountains:**
 
-### **8.1. Deployment with Heroku** ###
+### **9.1. Deployment with Heroku** ###
 These are the steps I took to deploy my project to Heroku.
 
 - Log into Heroku or create an account.
@@ -417,7 +434,7 @@ These are the steps I took to deploy my project to Heroku.
 - Once the build is finished there should be a message saying 'Your app was successfully deployed' with a 'View' button.
 When I click on 'View' this opened the application.
 
-### 8.2. Database setup ###
+### 9.2. Database setup ###
 - Went to [Code Institutes Database provider](https://dbs.ci-dbs.net/).
 - Submitted email address. 
 - Got Database URL via email. 
@@ -427,7 +444,7 @@ When I click on 'View' this opened the application.
 }
 - Put DATABASE_URL key and database url as value in Heroku Config Vars.
 
-### **8.3. Setting up Stripe** ### 
+### **9.3. Setting up Stripe** ### 
 
 Stripe's API is used to handle Paradise Pending's payment system. To setup follow the below steps:
 
@@ -436,7 +453,7 @@ Stripe's API is used to handle Paradise Pending's payment system. To setup follo
 3. Add your `STRIPE_PUBLIC_KEY` and `STRIPE_SECRET_KEY` to your env.py, connect to your settings.py using your environment variables and then enter them into your project's Heroku Config Vars.
 
 
-### **8.4. Setting up AWS** ###
+### **9.4. Setting up AWS** ###
 [AWS](https://aws.amazon.com) is used to store the media and static files online for Paradise Pending. Please follow the below:
 
 1. Setup AWS Account and Login with your new account.
@@ -565,14 +582,14 @@ Amazon Resource Name (ARN): copy in the ARN from the bucket policy window
 
 49. Click Done
 
-### 8.5. Fork The Repository ###
+### 9.5. Fork The Repository ###
 
 1. Go to the GitHub repository
 2. Click on Fork button in the upper right-hand corner
 3. Edit the repository name and description if desired
 4. Click the green create fork button
  
- ### 8.6. Making a Local Clone ###
+ ### 9.6. Making a Local Clone ###
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/BreakellrZ/trader_base?tab=readme-ov-file)
 2. Under the repository name, click "Clone or download".
@@ -588,9 +605,9 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 7. Press Enter. Your local clone will be created.
 
 
-## **9. Technologies & Credits :anchor:** ###
+## **10. Technologies & Credits :anchor:** ###
 
-### **9.1. Technologies/Libraries & Frameworks used to develop and deploy this project** ###
+### **10.1. Technologies/Libraries & Frameworks used to develop and deploy this project** ###
 
 - [Bootstrap](https://getbootstrap.com/) was used to style and make website responsive.
 - [VS Code](https://code.visualstudio.com/) was used to code the website locally.
@@ -615,7 +632,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 - [Stripe](https://stripe.com/en-ie) for processing Paradise Pendings payment system.
 - [AWS](https://aws.amazon.com/) for hosting staticfiles etc.
 
-### **9.2. Credits** ###
+### **10.2. Credits** ###
 - I would first like to thank my code institute mentor, Brian O'Hare, for guiding me providing tips and feedback during this project.
 
 - I would like to credit Code Institute and 'Boutique ado'' walkthrough. Code Institute provided all of my education for this project. Botique Ado was used to help guide me throughout this project and was used as the main template.
