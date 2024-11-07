@@ -27,9 +27,7 @@
   <link rel="manifest" href="{% static 'css/img/site.webmanifest' %}">
 
   <!-- MailChimp popup -->
-  <script id="mcjs">!function(c,h,i,m,p){
-    m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)
-  }(document,"script","https://chimpstatic.com/mcjs-connected/js/users/aa87886a9e9448ea7e4907f36/a1edb3eeaad2ef60408ace824.js");
+  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/aa87886a9e9448ea7e4907f36/a1edb3eeaad2ef60408ace824.js");
   </script>
 
     <!-- Bootstrap CSS -->
@@ -47,6 +45,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="{% static 'css/base.css' %}" />
+
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+        #mc_embed_signup{background:#fff; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: px;}
+        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
     {% endblock %}
 
     <!-- Bootstrap JS + jquery + Fontawesome-->
@@ -228,11 +233,11 @@
     <footer class="footer py-3 bg-dark text-light w-100 mt-auto">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-lg-3 mt-2">
             <h3 class="google_font">Paradise Pending</h3>
             <p class="text-danger">This webiste is for educational purposes. It is not a real clothing site. Payments made will not be proccessed, and you will not recieve any items.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-3 mt-2">
             <h5>Quick Links</h5>
             <ul class="list-unstyled">
               <li><a href="{% url 'home' %}" class="text-warning">Home</a></li>
@@ -240,9 +245,31 @@
               <li><a href="{% url 'home' %}" class="text-warning">FAQ // Contact us</a></li>
             </ul>
           </div>
-          <div class="col-md-4">
+          <div class="col-lg-3 mt-2">
             <h5>Follow Us on Facebook</h5>
             <a href="https://www.facebook.com/profile.php?id=61568474457260" class="text-decoration-none me-2" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div class="col-lg-3 mt-2">
+              <h5>Subscribe to our newsletter</h5>
+            <div class="card text-dark p-2 m-1">
+            <form action="https://herokuapp.us15.list-manage.com/subscribe/post?u=aa87886a9e9448ea7e4907f36&amp;id=4f506200e3&amp;f_id=0040ade1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+              
+                  <div class="indicates-required"><span class="asterisk text-danger">*</span> indicates required</div>
+                  <div class="mc-field-group"><label for="mce-EMAIL" class="text-warning font-weight-bold">Email Address <span class="asterisk text-danger p-2">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
+              <div id="mce-responses" class="clear foot">
+                  <div class="response" id="mce-error-response" style="display: none;"></div>
+                  <div class="response" id="mce-success-response" style="display: none;"></div>
+              </div>
+          <div aria-hidden="true" style="position: absolute; left: -5000px;">
+              /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+              <input type="text" name="b_aa87886a9e9448ea7e4907f36_4f506200e3" tabindex="-1" value="">
+          </div>
+          <div class="clear foot">
+            <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn-warning" value="Subscribe">
+        </div>
+
+      </form>
+      </div>
           </div>
         </div>
         <hr>
@@ -255,6 +282,9 @@
     <script type="text/javascript">
       $('.toast').toast('show');
     </script>
+
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[6]='COMPANY';ftypes[6]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
+
     {% endblock %}
   </body>
 </html>
