@@ -5,11 +5,11 @@ I wanted the clothes to have a summer vibe to it as Summer seems to be the time 
 
 - <mark>Paradise Pending</mark> has been developed for my Portfolio Project 5 for Code Institue Full Stack Software Deveoper Course using Django, HTML, CSS, JS & Python. As of now this is a fictional Clothing Store for educational Purposes. Any payments made using a valid debit/credit card will not be processed and the card will not be charged. No orders made will be fulfilled.
 
-[Paradise Pending live link](https://.herokuapp.com/)
+[Paradise Pending live link](https://paradise-pending-e-commerce-49bae7a1ea52.herokuapp.com/)
 
 ---
 
-![Am I responsive image](documentation/)
+![Am I responsive image](documentation/am_i_responsive_pp5.png)
 
 ---
 
@@ -287,22 +287,24 @@ Black (text-dark) or white (text-light) was used as the main colors for text. Th
 
 ### <mark>**Reviews**</mark> ###
 
-- The review Feature is on the main home page. This feature involves a Carousel with numerous reviews being showcased. Users can also click on "Create a review" button and will be taken to a seperate page to create there own reviews and use CRUD functionality.
+- The review Feature is on the main home page. This feature involves cards with numerous reviews being showcased. Users can also click on "Create a review" button and will be taken to a seperate page to create there own reviews and use CRUD functionality to update or delete their own reviews.
 
 ![Reviews](documentation/reviews_pp5.png)
 
+![Reviews CRUD](documentation/reviews_crud.png)
+
 ### <mark>**F.A.Q**</mark> ###
 
-- The F.A.Q feature is also on the main page, here users can look at the most frequently asked questions. There will also be a button to contact us where you can ask your own questions to us.
+- The F.A.Q feature is also on the main page, here users can look at the most frequently asked questions.
 
-![FAQ]()
+![FAQ](documentation/faq_contact_us.png)
 
 
 ### <mark>**Contact us**</mark> ###
 
 - The contact us feature is for users to ask any questions they may have. Here they can enter their emails and ask whatever question they would like.
 
-![Contact us]()
+![Contact us](documentation/faq_contact_us.png)
 
 ### <mark>**Clothing**</mark> ###
 
@@ -366,6 +368,8 @@ Black (text-dark) or white (text-light) was used as the main colors for text. Th
 ### <mark>**Footer**</mark> ###
 
 - The footer is at the bottom of each page.
+
+![Footer](documentation/footer_pp5.png)
 
 
 ## **6. Future Features :diamonds:**
