@@ -47,7 +47,10 @@ def updateReview(request, pk):
             return redirect('/')
         else:
             messages.error(
-                request, ' ERROR: You must be the orginal author to edit this Review!')
+                request, (
+                    'ERROR: '
+                    'You must be the orginal author to edit this Review!'
+                    ))
             return redirect('/')
 
     context = {'form': form,
@@ -65,4 +68,3 @@ def deleteReview(request, pk):
         return redirect("/")
     context = {'item': review}
     return render(request, 'reviews/review_delete.html', context)
-

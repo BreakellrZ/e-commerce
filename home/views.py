@@ -20,7 +20,9 @@ def index(request):
             form.save()
             form = QuestionForm()
         messages.success(
-            request, 'Your Question has been sent, please allow up to 24 hours for a reply. Thank you for contacting Paradise Pending')
+            request, ('Your Question has been sent,'
+                      'please allow up to 24 hours for a reply.'
+                      'Thank you for contacting Paradise Pending'))
     else:
         form = QuestionForm()
 
