@@ -401,6 +401,75 @@ robots.txt file was added so it tells the seach engine where it is not allowed t
 ## **8.1. Validation**
 - Pep 8 CI Validator tests: 
 
+| Directory      | File            | Result                                                   |
+| -------------- | --------------- | -------------------------------------------------------- |
+| paradise   | \`settings.py\` | <span style="color:red;">Fail (Line to long line 148/160 Could not shorten this line)</span>|
+| paradise    | \`urls.py\`     | <span style="color:green;">PASS</span>                   |
+| paradise    | \`init.py\`     | <span style="color:green;">PASS</span>                   |
+| paradise    | \`asgi.py\`     | <span style="color:green;">PASS</span>                   |
+| paradise    | \`wsgi.py\`     | <span style="color:green;">PASS</span>                   |
+| paradise    | \`views.py\`     | <span style="color:green;">PASS</span>                   |
+| bag   | \`urls.py\`     | <span style="color:green;">PASS</span>                   |
+| bag   | \`views.py\`    | <span style="color:green;">PASS</span>                   |
+| bag   | \`tests.py\`    | <span style="color:green;">PASS</span>                   |
+| bag   | \`models.py\`   | <span style="color:green;">PASS</span>                   |
+| bag   | \`contexts.py\`    | <span style="color:green;">PASS</span>                   |
+| bag   | \`apps.py\`     | <span style="color:green;">PASS</span>                   |
+| bag   | \`admin.py\`    | <span style="color:green;">PASS</span>                   |
+| bag   | \`init.py\`     | <span style="color:green;">PASS</span>                   |
+| home           | \`views.py\`    | <span style="color:green;">PASS</span>                   |
+| home           | \`urls.py\`     | <span style="color:green;">PASS</span>                   |
+| home           | \`tests.py\`    | <span style="color:green;">PASS</span>                   |
+| home           | \`models.py\`   | <span style="color:green;">PASS</span>                   |
+| home           | \`apps.py\`     | <span style="color:green;">PASS</span>                   |
+| home           | \`admin.py\`    | <span style="color:green;">PASS</span>                   |
+| home           | \`init.py\`     | <span style="color:green;">PASS</span>                   |
+| checkout     | \`views.py\`    | <span style="color:green;">PASS</span>                   |
+| checkout     | \`urls.py\`     | <span style="color:green;">PASS</span>                   |
+| checkout      | \`tests.py\`    | <span style="color:green;">PASS</span>                   |
+| checkout      | \`models.py\`   | <span style="color:green;">PASS</span>                   |
+| checkout      | \`signals.py\`     | <span style="color:green;">PASS</span>                   |
+| checkout      | \`forms.py\`     | <span style="color:green;">PASS</span>                   |
+| checkout      | \`apps.py\`     | <span style="color:green;">PASS</span>                   |
+| checkout     | \`admin.py\`    | <span style="color:green;">PASS</span>                   |
+| checkout     | \`init.py\`     | <span style="color:green;">PASS</span>                   |
+| checkout     | \`webhooks.py\`     | <span style="color:green;">PASS</span>                   |
+| checkout     | \`webhook_handler.py\`     | <span style="color:green;">PASS</span>                   |
+| faq           | \`views.py\`    | <span style="color:green;">PASS</span>                   |
+| faq          | \`urls.py\`     | <span style="color:green;">PASS</span>                   |
+| faq          | \`tests.py\`    | <span style="color:green;">PASS</span>                   |
+| faq           | \`models.py\`   | <span style="color:green;">PASS</span>                   |
+| faq          | \`apps.py\`     | <span style="color:green;">PASS</span>                   |
+| faq         | \`admin.py\`    | <span style="color:green;">PASS</span>                   |
+| faq           | \`contexts.py\`     | <span style="color:green;">PASS</span>                   |
+| faq           | \`forms.py\`     | <span style="color:green;">PASS</span>                   |
+| products          | \`widgets.py\`    | <span style="color:green;">PASS</span>                   |
+| products          | \`views.py\`    | <span style="color:green;">PASS</span>                   |
+| products           | \`urls.py\`     | <span style="color:green;">PASS</span>                   |
+| products           | \`tests.py\`    | <span style="color:green;">PASS</span>                   |
+| products           | \`models.py\`   | <span style="color:green;">PASS</span>                   |
+| products           | \`forms.py\`   | <span style="color:green;">PASS</span>                   |
+| products           | \`apps.py\`     | <span style="color:green;">PASS</span>                   |
+| products           | \`admin.py\`    | <span style="color:green;">PASS</span>                   |
+| products           | \`init.py\`     | <span style="color:green;">PASS</span>                   |
+| profiles           | \`views.py\`    | <span style="color:green;">PASS</span>                   |
+| profiles          | \`urls.py\`     | <span style="color:green;">PASS</span>                   |
+| profiles          | \`tests.py\`    | <span style="color:green;">PASS</span>                   |
+| profiles           | \`models.py\`   | <span style="color:green;">PASS</span>                   |
+| profiles          | \`apps.py\`     | <span style="color:green;">PASS</span>                   |
+| profiles         | \`admin.py\`    | <span style="color:green;">PASS</span>                   |
+| profiles          | \`forms.py\`     | <span style="color:green;">PASS</span>                   |
+| reviews          | \`views.py\`    | <span style="color:green;">PASS</span>                   |
+| reviews          | \`urls.py\`     | <span style="color:green;">PASS</span>                   |
+| reviews          | \`tests.py\`    | <span style="color:green;">PASS</span>                   |
+| reviews           | \`models.py\`   | <span style="color:green;">PASS</span>                   |
+| reviews          | \`apps.py\`     | <span style="color:green;">PASS</span>                   |
+| reviews         | \`admin.py\`    | <span style="color:green;">PASS</span>                   |
+| reviews           | \`forms.py\`     | <span style="color:green;">PASS</span>                   |
+| e-commerce          | \`custom_storage.py\`     | <span style="color:green;">PASS</span>                   |
+| e-commerce          | \`manage.py\`     | <span style="color:green;">PASS</span>                   |
+
+
 
 #### **W3C CSS VALIDAOR :** ####
 
