@@ -62,23 +62,22 @@
           <div class="card-footer">
             <div class="row">
               <div class="col">
-                <p class="mt-1 text-lead">{{ product.name }}</p>
-              </a>
-                <p class="my-1 text-muted" id="price">€{{product.price }}</p>
+                <p class="mt-1 text-lead font-weight-bold">{{ product.name }}</p>
+                <p class="my-1 text-dark" id="price{{ product.id }}">€{{product.price }}</p>
                 {% if product.category %}
                 <p>
-                  <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
+                  <a class="text-dark" href="{% url 'products' %}?category={{ product.category.name }}">
                     <i class="fas fa-tag"></i> {{ product.category.friendly_name }}
                   </a>
                   </p>
                   {% endif %}
                 {% if product.rating %}
-                <small class="text-muted"
+                <small class="text-dark"
                   ><i class="fas fa-star color-warning mr-1"></i>{{ product.rating }} /
                   5</small
                 >
                 {% else %}
-                <small class="text-muted">No Rating</small>
+                <small class="text-dark">No Rating</small>
                 {% endif %}
                 {% if request.user.is_superuser %}
                 <small class="ml-3">
@@ -105,13 +104,13 @@
 
 {% block postloadjs %}
     {{ block.super }}
-    <script type="text/javascript">
+    <script>
 		$('.btt-link').click(function(e) {
 			window.scrollTo(0,0)
 		})
 	</script>
     
-    <script type="text/javascript">
+    <script>
         $('#sort-selector').change(function() {
             var selector = $(this);
             var currentUrl = new URL(window.location);

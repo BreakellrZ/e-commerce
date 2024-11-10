@@ -9,8 +9,7 @@
 <div class="container text-center my-4 h-100">
     <h1 class="heading-text google_font">{% trans "Sign Up" %}</h1>
 
-    <p class="my-3 p-txt">{% blocktrans %}Already have an account? Then please <a class="text-warning" href="{{ login_url }}"
-            class="special-anchor">sign in</a>.{% endblocktrans %}
+    <p class="my-3 p-txt">{% blocktrans %}Already have an account? Then please <a class="text-warning special-anchor" href="{{ login_url }}">sign in</a>.{% endblocktrans %}
     </p>
 
     <form class="form p-3 w-75 mx-auto" id="signup_form" method="post" action="{% url 'account_signup' %}">

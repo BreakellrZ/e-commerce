@@ -6,7 +6,6 @@
   
   <head>
     <!-- Required meta tags -->
-    <meta http-equiv="X - UA - compatible" content="ie=edge">
     <meta charset="utf-8">
     <meta
       name="viewport"
@@ -26,9 +25,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="{% static 'css/img/favicon-16x16.png' %}">
   <link rel="manifest" href="{% static 'css/img/site.webmanifest' %}">
 
-  <!-- MailChimp popup -->
-  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/aa87886a9e9448ea7e4907f36/a1edb3eeaad2ef60408ace824.js");
-  </script>
+
 
     <!-- Bootstrap CSS -->
     {% block corecss %}
@@ -99,7 +96,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav mr-auto text-dark font-weight-bold">
             <li class="nav-item active">
               <a class="nav-link" href="{% url 'home' %}"
                 >Home <span class="sr-only">(current)</span></a
@@ -129,12 +126,12 @@
               </div>
             </li>
           </ul>
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto text-dark font-weight-bold">
             <li class="nav-item dropdown mr-2">
               <a
                 class="nav-link dropdown-toggle my_account_padding"
                 href="#"
-                id="navbarDropdown"
+      
                 role="button"
                 data-toggle="dropdown"
                 aria-haspopup="true"
@@ -142,7 +139,7 @@
               >
                My Account
               </a>
-              <div class="dropdown-menu" aria-labelledby="user-options">
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 {% if request.user.is_authenticated %} 
                 {% if request.user.is_superuser %}
                 <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
@@ -225,7 +222,7 @@
         <div class="row">
           <div class="col-lg-3 mt-2">
             <h3 class="google_font">Paradise Pending</h3>
-            <p class="text-danger">This webiste is for educational purposes. It is not a real clothing site. Payments made will not be proccessed, and you will not recieve any items.</p>
+            <p class="text-danger font-weight-bold">This webiste is for educational purposes. It is not a real clothing site. Payments made will not be proccessed, and you will not recieve any items.</p>
           </div>
           <div class="col-lg-3 mt-2">
             <h5>Quick Links</h5>
@@ -245,7 +242,7 @@
             <form action="https://herokuapp.us15.list-manage.com/subscribe/post?u=aa87886a9e9448ea7e4907f36&amp;id=4f506200e3&amp;f_id=0040ade1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
               
                   <div class="indicates-required"><span class="asterisk text-danger">*</span> indicates required</div>
-                  <div class="mc-field-group"><label for="mce-EMAIL" class="text-warning font-weight-bold">Email Address <span class="asterisk text-danger p-2">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
+                  <div class="mc-field-group"><label for="mce-EMAIL" class="text-dark font-weight-bold">Email Address <span class="asterisk text-danger p-2">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
               <div id="mce-responses" class="clear foot">
                   <div class="response" id="mce-error-response" style="display: none;"></div>
                   <div class="response" id="mce-success-response" style="display: none;"></div>
@@ -269,7 +266,7 @@
     
 
     {% block postloadjs %} 
-    <script type="text/javascript">
+    <script>
       $('.toast').toast('show');
     </script>
 
