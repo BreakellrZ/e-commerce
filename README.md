@@ -277,6 +277,80 @@ The bag and checkout structure is clean and easy to navigate for the users.
 **I used Balsamiq for my wireframes. This is what I came up for Paradise Pending :**
 
 
+<details>
+<summary>
+ Home page 
+</summary>
+
+![Home page wireframe](/documentation/home_phone_balsamiq.png)
+
+![Home page wireframe](/documentation/home2_balsamiq.png)
+
+</details>
+
+<details>
+<summary>
+Reviews Page
+</summary>
+
+![Reviews page wireframe](/documentation/reviews_balsamiq.png)
+
+</details>
+
+<details>
+<summary>
+Products Page
+</summary>
+
+![Products page wireframe](/documentation/products_mobile_balsamiq.png) 
+
+</details>
+
+<details>
+<summary>
+Products Detail
+</summary>
+
+![Products detail page wireframe](/documentation/product_detaill_mobile_balsamiq.png) 
+
+</details>
+
+<details>
+<summary>
+Bag Page
+</summary>
+
+![Bag page wireframe](/documentation/bag_balsamiq_mobile.png)
+
+</details>
+
+<details>
+<summary>
+Checkout page
+</summary>
+
+![Checkout page wireframe](/documentation/checkoutPage_balsamiq.png)
+</details>
+
+<details>
+<summary>
+Checkout Success 
+</summary>
+
+![Checkout Success wireframe](/documentation/checkout_success_balsamiq.png) 
+
+</details>
+
+<details>
+<summary>
+My Profile
+</summary>
+
+![My profile page wireframe](/documentation/my_profile_balsamiq.png)
+
+</details>
+
+
 
 ## **3.5. The Surface Plane**
 
