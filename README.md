@@ -608,7 +608,7 @@ robots.txt file was added so it tells the seach engine where it is not allowed t
  #### **W3C HTML Validator :** ####
 
  - No errors found in all HTML files Here is some examples: 
-  ![HTML validation](documentation/bag_html_js_validation.png)
+  ![HTML validation](documentation/product_detail_htmlvalidator_pp5.png)
   ![HTML validation](documentation/home_html_validator_pp5.png)
   ![HTML validation](documentation/products_htmlvalidator_pp5.png)
   ![HTML validation](documentation/register_htmlvalidator_pp5.png)
