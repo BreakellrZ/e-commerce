@@ -606,11 +606,18 @@ robots.txt file was added so it tells the seach engine where it is not allowed t
 
  #### **W3C HTML Validator :** ####
 
- - No errors found in all HTML files. ![HTML validation](documentation/bag_html_js_validation.png)
+ - No errors found in all HTML files Here is some examples: 
+  ![HTML validation](documentation/bag_html_js_validation.png)
+  ![HTML validation](documentation/home_html_validator_pp5.png)
+  ![HTML validation](documentation/products_htmlvalidator_pp5.png)
+  ![HTML validation](documentation/register_htmlvalidator_pp5.png)
 
  #### **JS Validation :** ####
 
- - No errors found in all JS files - Here are some snippet examples.
+ - No errors found in all JS files, there was some warnings in my quantity_input_script but I was told by code Institute Tutor support that this is fine as they are just warnings and it works perfect.  - Here are some snippet examples.
+
+ ![JSHint validation](documentation/js_validator_warnings.png)
+ ![JSHint validation](documentation/quantity_input_js_validator_warnings.png)
  ![JSHint validation](documentation/checkout_js_validator.png)
  ![JSHint validation](documentation/profiles_js_validator.png)
  ![JSHint validation](documentation/addproduct_js_validator.png)
