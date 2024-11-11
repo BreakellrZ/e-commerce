@@ -618,7 +618,6 @@ robots.txt file was added so it tells the seach engine where it is not allowed t
  - No errors found in all JS files, there was some warnings in my quantity_input_script but I was told by code Institute Tutor support that this is fine as they are just warnings and it works perfect.  - Here are some snippet examples.
 
  ![JSHint validation](documentation/js_warnings_validator.png)
- ![JSHint validation](documentation/quantity_input_js_validator_warnings.png)
  ![JSHint validation](documentation/checkout_js_validator.png)
  ![JSHint validation](documentation/profiles_js_validator.png)
  ![JSHint validation](documentation/addproduct_js_validator.png)
