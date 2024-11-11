@@ -517,7 +517,8 @@ robots.txt file was added so it tells the seach engine where it is not allowed t
 - For marketing I setup a mock Facebook page to demonstrate and promote Paradise Pending. Posts would be made on this Facebook Page to entice users to buy from my store. Facebook has a lot of reach and social media marketing can be a great way to get new buyers. MailChimp was also used for users to signup to to recieve newsletters with great deals on the Paradise Pending website.
 
 ![Facebook Page](documentation/facebook_page.png)
-![Facebook Page2](documentation//facebook_page_2.png)
+![Facebook Page2](documentation/facebook_page_2.png)
+![MailChimp Signups](documentation/mailchimp.png)
 
 # **8. Validation, Testing & Bugs :bug:**
 
