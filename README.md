@@ -53,7 +53,7 @@ After thinking about my project, 9 Epics were created for this project. These Ep
 
  ### **2.1.5 User stories**
 
- I had a total of 30 User Stoires for this project. I categorized them via Must-Have -- Should-have -- Could have -- & Wont have.
+ I had a total of 31 User Stoires for this project. I categorized them via Must-Have -- Should-have -- Could have -- & Wont have.
 Must haves were Crucial for this project. Should-haves were I should have this but it is not the end of the world if I do not. Could haves were if I thought something could be in my project, It would be nice to have it but it does not need it. Wont haves were user stories that I wont have in my project due to time restraints or the skills to be able to do it as of now.
 
 **MoSCoW prioritization technique stands for**:
@@ -176,6 +176,9 @@ View User Stories for EPIC 7 : <mark>User Accounts, Authentication, Authorizatio
 | [# 25](https://github.com/BreakellrZ/ParadisePending_e-commerce/issues/17#issue-2475368421) | User Story - Create Superuser   |   As a developer I can create a superuser so that I can access the django admin panel and use CRUD functionalities from the admin panel  |
 | [# 26](https://github.com/BreakellrZ/e-commerce/issues/18#issue-2599161148) | User Story - Setup AllAuth | As a developer I can setup AllAuth so users can Register, Login, and Logout successfully on Paradise Pending  |
 | [# 27](https://github.com/BreakellrZ/e-commerce/issues/19#issue-2599163481) | User Story - Create and View my own Profile as a user | As a user I can create and view my own profile so that I can look back on my old purchases and save my profile information for next time  |
+| [# 28](https://github.com/BreakellrZ/e-commerce/issues/20) | User Story - Register  |
+| [# 29](https://github.com/BreakellrZ/e-commerce/issues/21) | User Story - Login, Logout  |
+
 
 
 </details>
@@ -188,9 +191,8 @@ View User Stories for EPIC 8 : <mark>SEO + Web Marketing</mark>
 
 | Issue                                                               | Title                                  | User Story                                                                                                                 |
 | ------------------------------------------------------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| [# 4]() | User Story -    |     |
-| [# 5]() | User Story -  |   |
-| [# 6]() | User Story - |   |
+| [# 30](https://github.com/BreakellrZ/e-commerce/issues/22) | User Story -  Create Facebook page  |  As a user I can checkout paradise poending facebook page so that *I can keep up to date with them and their deals etc.   |
+| [# 31](https://github.com/BreakellrZ/e-commerce/issues/23) | User Story - SEO implemntation |  As a developerr I can implement good SEO so that *Paradise Pending has a better chance of getting viewd by users. |
 
 
 </details>
@@ -773,13 +775,17 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 - I  would like to credit the slack community at code institute for providing me with references for the readme and helping with any questions regrding Stripe/AWS Setups.
 
-- I would like to thank [**Drawsql**](https://drawsql.app/) for the chart for my Database Schemas.
+- I would like to thank [**LucidChart**](https://www.lucidchart.com/pages/) for the chart for my Database Schemas.
 
 - I would like to credit [**Unsplash**](https://unsplash.com/) for providing some of my pictures.
+
+- I would like to credit [**PerplexityAI](https://www.perplexity.ai/) for help regarding any questions I may have had.
 
 - I would like to credit [**Gencraft**](https://gencraft.com/) for providing my main hero image.
 
 - I would like to credit [**FavIcon.io**](https://favicon.io/favicon-converter/). It was used to compress favicon.
 
 - I would like to credit [**W3Schools**](https://www.w3schools.com/), for useful information.
+
+
  

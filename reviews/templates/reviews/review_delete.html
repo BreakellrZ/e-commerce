@@ -19,7 +19,6 @@
   </div>
   </div>
   
-
   <div class="row my-5 text-center delete_review">
     <div class="col">
         <div class="card">
@@ -28,11 +27,8 @@
         </div>
         <div class="card-body">
         <form action="{% url 'review_delete' item.id %}" method="POST">
-        
-
             {% csrf_token %}
             <a href="{% url 'review_create' %}" class=" mx-3 p-1"> Cancel </a>
-
             <input class=" btn-danger" type="submit" name="Confrim">        
         </form>
         </div>
