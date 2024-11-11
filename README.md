@@ -672,7 +672,8 @@ I came across a few bugs while trying to finish this project. Here are some of t
 
 ![Bug fix](documentation/bug_2_pp5.png)
 
-- I also have duplicate ID errors for my bag. I had to change it from ID to 'data-id="remove_{{ item.item_id }}"'. This initally worked but then my remove button in my bag was not working. To fix this I had to go to the bag.html file and scrool down to the JS. Here I changed var itemId = $(this).attr('id').split('remove_')[1]; to var itemId = $(this).attr('data-id').split('remove_')[1]; 
+- I also have duplicate ID errors for my bag. I had to change it from ID to 'data-id="remove_{{ item.item_id }}"'. This initally worked but then my remove button in my bag was not working. To fix this I had to go to the bag.html file and scroll down to the JS. Here I changed var itemId = 
+'$(this).attr('id').split('remove_')[1]; to var itemId = $(this).attr('data-id').split('remove_')[1]; This seemed to do the trick :D'
 
 ![Bug fix](documentation/bug_3.png)
 
