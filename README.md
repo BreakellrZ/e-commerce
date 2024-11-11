@@ -263,6 +263,23 @@ Black (text-dark) or white (text-light) was used as the main colors for text. Th
  ![Colors](documentation/bag_color.png)
 
  ## **4. Database Schemas :chart_with_upwards_trend:**
+ #### **The database schema for TraderBase includes the following models:** ####
+
+ - **The User model** which stores all user information. 
+This was already pre-built by django using 'from django.contrib.auth.models import User' in models.py. From looking at the django documentation I can see the fields include: Username, first_name, last_name, email, password, groups, user_permissions, is_staff, is_active, is_superuser, last_login, date_joined.
+
+- **The Order Model** which stores all of the order information inluding full name, email, address, how much the order was etc. 
+- **The OrderLineItem Model** The orderlineItem model was linked with the order model and product model. This model included the product, the product_size, quantity and the lineitem_total.
+- **The FAQ custom Model** consisted of questions and answers. This was one of my custom models and can be updated down the line with more faqs.
+- **The Question custom Model** The question model was my second custom model. This was created for users to be able to fill out a form on the frontend and be able to send questions to us. This consisted of name, email, and the question asked. We can then reply to name with an answer to the email they provided.
+- **The Category Model** The Category model was made to have two different categorys one for t-shirts and another for trousers. This model consisted of a name and a friendly_name.
+- **The Product Model** The Product model then was created for each individual product. This model links with the Category model. It also consists of a sku, name, description, has_sizes, price, rating, image_url, and image.
+- **The UserProfile Model** The user Profile model was made for maintaining default delivery information and order history. It consists of user via a OnetoOneField with User model. Default_phone_number, default street address 1 and 2, default town or city, default couty and postcode and finally a default country via a countryField.
+- **The Reviews custom Model** This was my third custom model. It was linked with the product model via a ManyToMany - many reviews per can be made for many products.
+
+[**LucidChart**](https://www.lucidchart.com/pages/) was used for my ERD (Entity Relationship Diagram).
+
+![DataBase LucidChart](documentation/database_pp5.png)
 
  ## **5. Features :gem:**
 
@@ -469,20 +486,66 @@ robots.txt file was added so it tells the seach engine where it is not allowed t
 | e-commerce          | \`custom_storage.py\`     | <span style="color:green;">PASS</span>                   |
 | e-commerce          | \`manage.py\`     | <span style="color:green;">PASS</span>                   |
 
-
+- Here are some snippet examples.
+![Pep8 validation](documentation/webhook_pep8.png)
+![Pep8 validation](documentation/bag_urls_pep8.png)
+![Pep8 validation](documentation/home_views_pep8.png)
+![Pep8 validation](documentation/faq_models_pep8.png)
+![Pep8 validation](documentation/bag_contextspy_pep8.png)
 
 #### **W3C CSS VALIDAOR :** ####
 
+- No errors found.
+![css validation](documentation/css_validator_pp5.png)
+
  #### **W3C HTML Validator :** ####
+
+ - No errors found in all HTML files. ![HTML validation](documentation/bag_html_js_validation.png)
 
  #### **JS Validation :** ####
 
+ - No errors found in all JS files - Here are some snippet examples.
+ ![JSHint validation](documentation/checkout_js_validator.png)
+ ![JSHint validation](documentation/profiles_js_validator.png)
+ ![JSHint validation](documentation/addproduct_js_validator.png)
+ ![JSHint validation](documentation/editproduct_js_validator.png)
+ ![JSHint validation](documentation/producthtml_js_validator.png)
+
+
   #### **Lighthouse scores :** ####
 
+  - Lighthouse scores could be better, unfortunately I did not have enough time for this project to ace my lighthouse scores, but as you can see from previous projects they have all been above 90 in each category. I plan on improving my lighthouse scores for this project after I finish the course.
+
   ## **8.2. Testing**
-|Epic|What the test is|How I done the test|Outcome|
+|Epic|What the test is|How to test|Outcome|
 |-------------|------------------|-----------|-------|
 ||||| 
+|Viewing and Navigation|View a list of products|Via navbar click clothing and all products |Works as expected|
+|Viewing and Navigation|View individual product details|Click on the image of each individual product |Works as expected|
+|Viewing and Navigation|View individual product details|Click on the image of each individual product |Works as expected|
+|Viewing and Navigation|Check FAQ accordian is functioning |Go to home page and scroll down to FAQ, click on each faq|Works as expected|
+|Viewing and Navigation|Check all links work on navbar |Go to home page, click each link |Works as expected|
+|Viewing and Navigation|Check all links work on footer |Go to any page, click each link on the footer |Works as expected|
+|Sorting and Searching|Sort the list of avalable products |click clothing dropdown menu in navbar, try each sorting link example click t-shirts and only t-shirts show etc  |Works as expected|
+|Sorting and Searching|Sort by a specific category via sortbar|on products page click sort bar dropdown menu and sort by each available category |Works as expected|
+|Sorting and Searching|Search for a product by name or description|Click on 'search our site' form in the navbar - search for products |Works as expected|
+|Sorting and searching|Change size of product|Click on size dropdown and change sizes |Works as expected|
+|Sorting and searching|Change quantity of product|Click on quantity plus and minus buttons|Works as expected|
+|Purchasing and Checkout| add items to bag | Go to products, click ob a product, click add to bag |Works as expected|
+|Purchasing and Checkout| View items in bag | click bag icon in navbar |Works as expected|
+|Purchasing and Checkout|  Adjust quantity of items in bag  | go into bag, click minus or plus buttons  |Works as expected|
+|Purchasing and Checkout| Enter payment information | Click secure payment button in bag, enter payment details in checkout page, click complete order button |Works as expected|
+|Purchasing and Checkout| View order confirmation after checkout | Login, go to my account dropdown menu, click my profile, check order history and click on order number to see order confirmation |Works as expected|
+|Purchasing and Checkout| Recieve and email confirmation after checking out | Check email for confimration email |Works as expected|
+|User Authenthication/Accounts| SuperUser access | Login as superuser, go to products page, click edit or delete buttons. Edit button to edit product // delete button to delete product  |Works as expected|
+|User Authenthication/Accounts| Register | Click register from navabr, register a new account |Works as expected|
+|User Authenthication/Accounts| Login | Click login from navbar, login to your account  |Works as expected|
+|User Authenthication/Accounts| Logout | Click logout from navbar  |Works as expected|
+|Review| Create review | Click home page, scroll down to reviews, Click create review, create a review from the form and click submit.  |Works as expected|
+|Review| Edit review | Click home page, scroll down to reviews, Click create review, create a review from the form and click submit. Click Edit on your review, edit the review click submit. |Works as expected|
+|Review| Delete review | Click home page, scroll down to reviews, Click create review, create a review from the form and click submit. Click delete on your view, takes you to another page, confirm delete by clicking delete.  |Works as expected|
+|Contact| Contact Form |Go to home page, scroll down to contact form, type in name, email and question asked, click submit.  |Works as expected|
+
 
 ## **8.3. Bugs**
 
@@ -525,15 +588,15 @@ Stripe's API is used to handle Paradise Pending's payment system. To setup follo
 ### **9.4. Setting up AWS** ###
 [AWS](https://aws.amazon.com) is used to store the media and static files online for Paradise Pending. Please follow the below:
 
-1. Setup AWS Account and Login with your new account.
-2. Create a new S3 Bucket then name it to match your Heroku App name (paradise-pending-e-commerce) Choose the region closest to you.
-3. ACLS need to be enabled.
-4. Bucket owner preferred needs to be ticked.
-5. In the ‘block public access settings for this bucket’ section, untick ‘block all public access’ and tick the box to acknowledge that this will make the bucket and its contents public.
-6. At the bottom of the page, click ‘create bucket’.
+1. Sign up and Login with your account.
+2. Create a S3 Bucket then name it to match your Heroku App name (paradise-pending-e-commerce) Choose the region closest to you Europe for me.
+3. Enable ACLS.
+4. Tick bucket owner preferred.
+5. In the ‘block public access settings for this bucket’ section, untick ‘block all public access’ and tick the box to acknowledge that this ill make the bucket and its contents public.
+6. Click 'create bucket'
 7. Navigate to the newly created bucket and then its properties tab.
 
-8. Navigate to the static web hosting section and click edit.
+8. Go to the static web hosting section and click 'edit'.
 
 9. In the static webhosting section select ‘enable’ and set the following:
 
@@ -542,9 +605,9 @@ Index document: index.html
 Error document: error.html
 Click ‘save changes’.
 
-10. Return to the permissions tab and navigate to the cross-origin resource sharing (CORS) section and click edit.
+10. Go back to the permissions tab and navigate to (CORS) section and click edit.
 
-11. Paste the following into the cross-origin resource sharing (CORS) edit window and then click ‘save changes’:
+11. Paste the following into the (CORS) edit window and then click ‘save changes’:
 [
     {
         "AllowedHeaders": [
@@ -564,9 +627,9 @@ Click ‘save changes’.
 
 13. In the edit bucket policy window, copy the bucket ARN displayed and then click ‘policy generator’.
 
-14. In the policy generator set the following:
+14. Set the following In the policy generator:
 
-In Select Policy Type:
+Select Policy Type:
 
 Select type of policy: S3 bucket policy
 In Add Statement(s):
@@ -593,7 +656,7 @@ Amazon Resource Name (ARN): copy in the ARN from the bucket policy window
 
 22. Navigate to services and then IAM.
 
-23. Select ‘user groups’ and then ‘create group’.
+23. Click ‘user groups’ and then ‘create group’.
 
 24. Enter a user group name of your choice and click ‘create group’ at the bottom of the page.
 
