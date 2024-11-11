@@ -655,6 +655,21 @@ robots.txt file was added so it tells the seach engine where it is not allowed t
 
 ## **8.3. Bugs**
 
+I came across a few bugs while trying to finish this project. Here are some of the bugs I came across and how I fixed them.
+
+- For the HTML validation I was getting a lot of Errors for duplicate IDS. I contacted code institutes Tutor support for this one. To fix this I had to append {{ faq.id }} to the collapseOneID so that each iteration would give a unique ID. This was due to a for loop for my faq accordian and for each loop it was using the same ID. I appended {{ faq.id }} to data-target and the id for this to work.
+
+![Bug fix](documentation/bug_fix.png)
+
+- Another bug I was getting in the html validator was that the type attribute is unnecessary for JS resources. This was pretty straight foward and I just had to delete the type attribute as it was unnecessary. Alongside this I had to change the aria-labelled-by attribute to NavBar dropdown in the base.html this fixed this issue.
+
+![Bug fix](documentation/bug_2_pp5.png)
+
+- I also have duplicate ID errors for my bag. I had to change it from ID to 'data-id="remove_{{ item.item_id }}"'. This initally worked but then my remove button in my bag was not working. To fix this I had to go to the bag.html file and scrool down to the JS. Here I changed var itemId = $(this).attr('id').split('remove_')[1]; to var itemId = $(this).attr('data-id').split('remove_')[1]; 
+
+![Bug fix](documentation/bug_3.png)
+
+
 # **9. Deployment :sunrise_over_mountains:**
 
 ### **9.1. Deployment with Heroku** ###
