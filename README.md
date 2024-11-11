@@ -14,6 +14,36 @@ I wanted the clothes to have a summer vibe to it as Summer seems to be the time 
 ---
 
 # **1. Table of content :mortar_board:**
+- [2. User Experience](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#2-user-experience-ux-art)
+- [2.1. The Strategy Plane](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#21-the-strategy-plane)
+- [2.1.2. The Ideal User](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#212-the-ideal-user)
+- [2.1.3 Site Goals](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#213-site-goals)
+- [2.1.4 Epics](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#214-epics)
+- [2.1.5 User stories](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#215-user-stories)
+- [2.2. The Scope Plane](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#22-the-scope-plane)
+- [2.3. The Structure Plane](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#23-the-structure-plane)
+- [2.4. The Skeleton Plane](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#24-the-skeleton-plane)
+- [3.5. The Surface Plane](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#35-the-surface-plane)
+- [4. Database Schemas](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#4-database-schemas-chart_with_upwards_trend)
+- [5. Features](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#5-features-gem)
+- [6. Future Features](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#6-future-features-diamonds)
+- [7. Marketing and SEO :laptop:](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#7-marketing-and-seo-laptop)
+- [8. Validation, Testing & Bugs](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#8-validation-testing--bugs-bug)
+- [8.1. Validation](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#81-validation)
+- [8.2. Testing](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#82-testing)
+- [8.3. Bugs](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#83-bugs)
+- [9. Deployment ](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#9-deployment-sunrise_over_mountains)
+- [9.1. Deployment with Heroku](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#91-deployment-with-heroku)
+- [9.2. Database setup](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#92-database-setup)
+- [9.3. Setting up Stripe](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#92-database-setup)
+- [9.4. Setting up AWS](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#94-setting-up-aws)
+- [9.5. Fork The Repository](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#95-fork-the-repository)
+- [9.6. Making a Local Clone](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#96-making-a-local-clone)
+- [10. Technologies & Credits](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#10-technologies--credits-anchor)
+- [10.1. Technologies/Libraries & Frameworks used to develop and deploy this project](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#101-technologieslibraries--frameworks-used-to-develop-and-deploy-this-project)
+- [10.2. Credits](https://github.com/BreakellrZ/e-commerce?tab=readme-ov-file#102-credits)
+
+
 
 
 # **2. User Experience (UX) :art:**
@@ -398,7 +428,7 @@ I have a lot of Ideas for future features for Paradise Pending. My main two idea
 
 -  An about us section, to delve deeper into Paradise Pending as a business.
 
-## **7. Marketing and SEO :laptop:**
+## **7. Marketing and SEO :computer:**
 
 - SEO was key in my marketing strategy. I used short-tail and long-tail keywords in my code. I decided to make a list of important, relevant topics based on a clothing e-commerce store, then took keywords from them topics. For example some of the topics were: Summer T-shirts, Paradise, and custom T-shirts. I then took keywords such as happy t-shirts, cool summer tops for men, high quality stylish clothing, summer, summer vibes, etc. Some tools I used to help me were [WordTracker](https://www.wordtracker.com/search) to see what reaches most of the market, I also looked on Google itself to see what people were asking and seeing what words were autofilling in the searchbar. All of these can help figure out keywords for good SEO.Ideally I wanted to use keywords that have high enough volume but low enough competition.
 
@@ -779,7 +809,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 - I would like to credit [**Unsplash**](https://unsplash.com/) for providing some of my pictures.
 
-- I would like to credit [**PerplexityAI](https://www.perplexity.ai/) for help regarding any questions I may have had.
+- I would like to credit [**PerplexityAI**](https://www.perplexity.ai/) for help regarding any questions I may have had.
 
 - I would like to credit [**Gencraft**](https://gencraft.com/) for providing my main hero image.
 
